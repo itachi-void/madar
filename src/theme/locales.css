@@ -1,0 +1,67 @@
+.mdr-language { flex: none; max-width: 165px; font-size: 11px; }
+.mdr-language select { width: 100%; min-height: 40px; padding: 8px 24px 8px 8px; border: 1px solid var(--mdr-line); background: var(--mdr-base); color: var(--mdr-ink); font-family: var(--mdr-text); font-size: 10px; border-radius: 0; cursor: pointer; }
+.quiet-brand > span { height: 118px; font-size: 7px; letter-spacing: 1px; }
+html[data-locale="sa"] .quiet-brand > span { font-family: var(--mdr-text); writing-mode: horizontal-tb; height: auto; max-width: 80px; font-size: 8px; line-height: 2; letter-spacing: 0; }
+.mdr-region-note { margin: 0; padding: 12px var(--mdr-pad); background: var(--mdr-sand); border-bottom: 1px solid var(--mdr-line); font-size: 11px; line-height: 2; color: var(--mdr-muted); }
+html[dir="ltr"] { --mdr-display: Georgia, "Times New Roman", serif; --mdr-text: "Manrope", system-ui, sans-serif; }
+html[dir="ltr"] body { direction: ltr; text-align: left; }
+html[dir="ltr"] .mdr-display, html[dir="ltr"] .quiet-hero h1 { font-family: var(--mdr-display); font-size: clamp(38px, 4.7vw, 72px); line-height: 1.2; letter-spacing: -.035em; }
+html[dir="ltr"] .mdr-display, html[dir="ltr"] .mdr-title { overflow-wrap: anywhere; hyphens: auto; }
+html[dir="ltr"] .mdr-title, html[dir="ltr"] .quiet-brand, html[dir="ltr"] .store-manifesto h2, html[dir="ltr"] .motion-editorial-heading h2, html[dir="ltr"] .motion-trail h2, html[dir="ltr"] .motion-scene-copy h2 { font-family: var(--mdr-display); }
+html[dir="ltr"] .quiet-brand { font-size: 38px; }
+html[dir="ltr"] .quiet-brand > span { font-family: var(--mdr-text); }
+html[dir="ltr"] .mdr-lead, html[dir="ltr"] .mdr-info-copy { line-height: 1.85; }
+html[dir="ltr"] .mdr-review-block p[dir="ltr"] { text-align: left; }
+html[dir="ltr"] .mdr-drawer { inset: 0 0 0 auto; transform: none; }
+html[dir="ltr"] .mdr-icon-btn, html[dir="ltr"] .mdr-btn { letter-spacing: 0; }
+html[dir="ltr"] .mdr-info-page .mdr-display { font-size: clamp(38px, 4.5vw, 64px); }
+html[dir="ltr"] .quiet-hero-copy { align-items: flex-start; }
+html[dir="ltr"] .quiet-hero-copy > p { line-height: 2; }
+html[dir="ltr"] .quiet-header-tools { font-family: var(--mdr-text); }
+html[dir="ltr"] .mdr-language select { padding-inline: 8px 24px; }
+html[dir="ltr"] .mdr-about-copy .mdr-display { line-height: 1.2; }
+html[dir="ltr"] .mdr-about-copy .mdr-display em { margin-top: 16px; }
+html[dir="ltr"] .mdr-faq-answer { padding-inline: 0 var(--mdr-space-xl); }
+html[dir="ltr"] .mdr-style-products .mdr-title { font-family: var(--mdr-text); }
+html[dir="ltr"] .mdr-style-editorial .mdr-title, html[dir="ltr"] .mdr-info-manifesto .mdr-title { font-family: var(--mdr-display); }
+html[dir="ltr"] .store-footer { text-align: left; }
+html[dir="ltr"] .store-product-card,
+html[dir="ltr"] .quiet-photo-note,
+html[dir="ltr"] .mdr-drawer th,
+html[dir="ltr"] .mdr-drawer td { text-align: left; }
+html[dir="ltr"] body ul.products > li.product,
+html[dir="ltr"] body ul.wc-block-product-template > li,
+html[dir="ltr"] body ul.products li.product .woocommerce-loop-product__title,
+html[dir="ltr"] body ul.wc-block-product-template .wp-block-post-title,
+html[dir="ltr"] body ul.products li.product .price,
+html[dir="ltr"] body ul.wc-block-product-template .wc-block-components-product-price,
+html[dir="ltr"] body.single-product .wp-block-woocommerce-related-products h2,
+html[dir="ltr"] body.single-product .related.products > h2 { text-align: left !important; }
+html[dir="ltr"] .mdr-image-dialog button { left: auto; right: 12px; }
+html[dir="ltr"] .mdr-source-page .woocommerce form { text-align: left; }
+html[dir="ltr"] .mdr-source-page .woocommerce-breadcrumb { text-align: left; }
+html[dir="ltr"] body.single-product form.cart table.variations th,
+html[dir="ltr"] body.single-product form.cart table.variations td { text-align: left !important; }
+html[dir="ltr"] body.single-product .woocommerce-product-gallery__trigger { inset: 16px 16px auto auto !important; }
+html[dir="ltr"] .mdr-source-page .woocommerce-tabs ul.tabs li { float: none; }
+html[dir="ltr"] .mdr-source-page .woocommerce-tabs ul.tabs { display: flex; flex-wrap: wrap; justify-content: flex-start; }
+html[dir="ltr"] .mdr-source-page .woocommerce-Tabs-panel { text-align: left; }
+html[dir="ltr"] .quiet-line-button > span, html[dir="ltr"] .mdr-btn > span[aria-hidden="true"] { transform: scaleX(-1); }
+html[dir="ltr"] .quiet-cta > span, html[dir="ltr"] .mdr-link > span[aria-hidden="true"], html[dir="ltr"] .mdr-info-index > a > span[aria-hidden="true"] { transform: scaleX(-1); }
+html[dir="ltr"] .mdr-link > span[aria-hidden="true"], html[dir="ltr"] .mdr-info-index > a > span[aria-hidden="true"] { display: inline-block; }
+@media (min-width: 701px) and (max-width: 1150px) {
+  .store-header { display: grid; grid-template-columns: auto 1fr; gap: 16px 24px; }
+  .store-header .quiet-brand { grid-column: 1; grid-row: 1; }
+  .store-header .quiet-header-tools { grid-column: 2; grid-row: 1; justify-self: end; }
+  .store-header .store-nav { grid-column: 1 / -1; grid-row: 2; justify-content: center; flex-wrap: wrap; }
+}
+@media (max-width: 700px) {
+  .mdr-language { width: 125px; max-width: 125px; }
+  .quiet-brand > span { height: auto; }
+  .mdr-language select { min-height: 36px; font-size: 9px; }
+  .quiet-header-tools { gap: 8px !important; }
+  html[dir="ltr"] .quiet-hero h1 { font-size: clamp(38px, 11vw, 52px); letter-spacing: -.04em; }
+  html[dir="ltr"] .quiet-brand { font-size: 30px; }
+  html[dir="ltr"] .quiet-brand > span { display: none; }
+  html[dir="ltr"] .store-nav { gap: 16px; font-size: 11px; }
+}

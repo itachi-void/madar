@@ -1,0 +1,34 @@
+{
+  "sa": {
+    "LET'S TRY THAT AGAIN": "لنحاول مرة أخرى",
+    "تعذّر تحميل الصفحة.": "تعذّر تحميل الصفحة.",
+    "قد يكون الاتصال انقطع أو تم تحديث ملفات الموقع. أعد المحاولة لتحميل أحدث نسخة.": "قد يكون الاتصال انقطع أو تم تحديث ملفات الموقع. أعد المحاولة لتحميل أحدث نسخة.",
+    "إعادة المحاولة": "إعادة المحاولة",
+    "العودة للرئيسية": "العودة للرئيسية",
+    "مدار": "مدار"
+  },
+  "en": {
+    "LET'S TRY THAT AGAIN": "LET'S TRY THAT AGAIN",
+    "تعذّر تحميل الصفحة.": "This page could not load.",
+    "قد يكون الاتصال انقطع أو تم تحديث ملفات الموقع. أعد المحاولة لتحميل أحدث نسخة.": "The connection may have dropped or the site files changed. Try again to load the latest version.",
+    "إعادة المحاولة": "Try again",
+    "العودة للرئيسية": "Back to home",
+    "مدار": "Madar"
+  },
+  "fr": {
+    "LET'S TRY THAT AGAIN": "RÉESSAYONS",
+    "تعذّر تحميل الصفحة.": "Impossible de charger la page.",
+    "قد يكون الاتصال انقطع أو تم تحديث ملفات الموقع. أعد المحاولة لتحميل أحدث نسخة.": "La connexion a peut-être été interrompue ou le site mis à jour. Réessayez pour charger la dernière version.",
+    "إعادة المحاولة": "Réessayer",
+    "العودة للرئيسية": "Retour à l’accueil",
+    "مدار": "Madar"
+  },
+  "es": {
+    "LET'S TRY THAT AGAIN": "VOLVAMOS A INTENTARLO",
+    "تعذّر تحميل الصفحة.": "No se pudo cargar esta página.",
+    "قد يكون الاتصال انقطع أو تم تحديث ملفات الموقع. أعد المحاولة لتحميل أحدث نسخة.": "Puede haberse interrumpido la conexión o actualizado el sitio. Reintenta para cargar la última versión.",
+    "إعادة المحاولة": "Reintentar",
+    "العودة للرئيسية": "Volver al inicio",
+    "مدار": "Madar"
+  }
+}

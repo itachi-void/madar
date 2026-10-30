@@ -1,0 +1,18 @@
+{
+  "title": "مدار — رجال وأطفال",
+  "language": "ar",
+  "description": "مدار للرجال والأطفال. حضور هادئ، واختيارات مدروسة على مدار يومك. اكتشف التشكيلة والإطلالات ودفتر مدار.",
+  "icons": {
+    "icon": "/madar-mark.svg"
+  },
+  "openGraph": {
+    "image": "/images/coat-camel.jpg"
+  },
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

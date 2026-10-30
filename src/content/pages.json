@@ -1,0 +1,224 @@
+[
+  {
+    "path": "/cart/",
+    "title": "سلة المشتريات",
+    "bodyClass": "page-template-default page-id-10 woocommerce-cart woocommerce-page woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "808f4f9ecb53.html"
+  },
+  {
+    "path": "/journal/",
+    "title": "المجلة",
+    "bodyClass": "page-template-default page-id-147 woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "2f07bec4c2d4.html"
+  },
+  {
+    "path": "/lookbook/",
+    "title": "لوكبوك",
+    "bodyClass": "page-template-default page-id-146 woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "ade784b552a5.html"
+  },
+  {
+    "path": "/my-account/",
+    "title": "حسابي",
+    "bodyClass": "page-template-default page-id-12 woocommerce-account woocommerce-page woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "b51bea0b0354.html"
+  },
+  {
+    "path": "/product-category/kids/",
+    "title": "أطفال",
+    "bodyClass": "archive tax-product_cat woocommerce woocommerce-page woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "f704614d08b2.html"
+  },
+  {
+    "path": "/product-category/men/",
+    "title": "رجالي",
+    "bodyClass": "archive tax-product_cat woocommerce woocommerce-page woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "b0cab60025d3.html"
+  },
+  {
+    "path": "/product/بلوفر-تريكو-بدرجات-ترابي/",
+    "title": "بلوفر تريكو بدرجات ترابي",
+    "bodyClass": "single-product postid-86 woocommerce woocommerce-page woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "8c97ef9b0d38.html"
+  },
+  {
+    "path": "/product/سويتشيرت-أطفال-بخطوط/",
+    "title": "سويتشيرت أطفال بخطوط",
+    "bodyClass": "single-product postid-111 woocommerce woocommerce-page woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "c79286111460.html"
+  },
+  {
+    "path": "/product/طقم-بدلة-سادة/",
+    "title": "طقم بدلة سادة",
+    "bodyClass": "single-product postid-98 woocommerce woocommerce-page woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "908bfee2883d.html"
+  },
+  {
+    "path": "/product/معطف-صوف-بلون-الجمل/",
+    "title": "معطف صوف بلون الجمل",
+    "bodyClass": "single-product postid-141 woocommerce woocommerce-page woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "f7e50c4e72a0.html"
+  },
+  {
+    "path": "/shop/",
+    "title": "المتجر",
+    "bodyClass": "archive post-type-archive post-type-archive-product woocommerce-shop woocommerce woocommerce-page woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "adfd12a909a8.html"
+  },
+  {
+    "path": "/my-account/lost-password/",
+    "title": "نسيت كلمة المرور",
+    "bodyClass": "page-template-default page-id-12 woocommerce-account woocommerce-page woocommerce-lost-password woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "19ae20f49139.html"
+  },
+  {
+    "path": "/product-category/clothing/",
+    "title": "ملابس",
+    "bodyClass": "archive tax-product_cat woocommerce woocommerce-page woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "9f8399130323.html"
+  },
+  {
+    "path": "/product/أوفرشيرت-قطن-مبروم/",
+    "title": "أوفرشيرت قطن مبروم",
+    "bodyClass": "single-product postid-128 woocommerce woocommerce-page woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "da25ec3d1284.html"
+  },
+  {
+    "path": "/product/بنطال-جينز-كاجوال-تجريبي/",
+    "title": "بنطال جينز كاجوال – تجريبي",
+    "bodyClass": "single-product postid-42 woocommerce woocommerce-page woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "f9a10be8e9a5.html"
+  },
+  {
+    "path": "/product/تيشيرت-أطفال-مقلّم-فاتح/",
+    "title": "تيشيرت أطفال مقلّم فاتح",
+    "bodyClass": "single-product postid-105 woocommerce woocommerce-page woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "e2e826c281ca.html"
+  },
+  {
+    "path": "/product/تيشيرت-قطني-أساسي-تجريبي/",
+    "title": "تيشيرت قطني أساسي – تجريبي",
+    "bodyClass": "single-product postid-24 woocommerce woocommerce-page woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "d2ab8b070d91.html"
+  },
+  {
+    "path": "/product/سترة-هودي-شتوية-تجريبي/",
+    "title": "سترة هودي شتوية – تجريبي",
+    "bodyClass": "single-product postid-43 woocommerce woocommerce-page woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "0a3176f01671.html"
+  },
+  {
+    "path": "/product/سوار-معصم-جلدي-تجريبي/",
+    "title": "سوار معصم جلدي – تجريبي",
+    "bodyClass": "single-product postid-33 woocommerce woocommerce-page woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "e4d3b977bda4.html"
+  },
+  {
+    "path": "/product/قميص-أطفال-بني/",
+    "title": "قميص أطفال بني",
+    "bodyClass": "single-product postid-134 woocommerce woocommerce-page woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "c3e21f9baef7.html"
+  },
+  {
+    "path": "/product/قميص-مقلّم-بقصّة-واسعة/",
+    "title": "قميص مقلّم بقصّة واسعة",
+    "bodyClass": "single-product postid-118 woocommerce woocommerce-page woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "ad65072dddf5.html"
+  },
+  {
+    "path": "/product/محفظة-بطاقات-جلدية-تجريبي/",
+    "title": "محفظة بطاقات جلدية – تجريبي",
+    "bodyClass": "single-product postid-45 woocommerce woocommerce-page woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "da68dfb5f33c.html"
+  },
+  {
+    "path": "/product/معطف-طويل-أسود/",
+    "title": "معطف طويل أسود",
+    "bodyClass": "single-product postid-93 woocommerce woocommerce-page woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "d5b2022dbc8a.html"
+  },
+  {
+    "path": "/product/نظارة-شمسية-كلاسيكية-تجريبي/",
+    "title": "نظارة شمسية كلاسيكية – تجريبي",
+    "bodyClass": "single-product postid-44 woocommerce woocommerce-page woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "b0acce14c592.html"
+  },
+  {
+    "path": "/color/black/",
+    "title": "أسود",
+    "bodyClass": "archive tax-pa_color woocommerce woocommerce-page woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "ae2440acc448.html"
+  },
+  {
+    "path": "/color/brown/",
+    "title": "بني",
+    "bodyClass": "archive tax-pa_color woocommerce woocommerce-page woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "348a1bf1a014.html"
+  },
+  {
+    "path": "/color/white/",
+    "title": "أبيض",
+    "bodyClass": "archive tax-pa_color woocommerce woocommerce-page woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "0050d1823b8d.html"
+  },
+  {
+    "path": "/size/l/",
+    "title": "L",
+    "bodyClass": "archive tax-pa_size woocommerce woocommerce-page woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "9271e74cd363.html"
+  },
+  {
+    "path": "/size/m/",
+    "title": "M",
+    "bodyClass": "archive tax-pa_size woocommerce woocommerce-page woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "0d344e08407b.html"
+  },
+  {
+    "path": "/size/s/",
+    "title": "S",
+    "bodyClass": "archive tax-pa_size woocommerce woocommerce-page woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "e40a486e5ea8.html"
+  },
+  {
+    "path": "/size/xl/",
+    "title": "XL",
+    "bodyClass": "archive tax-pa_size woocommerce woocommerce-page woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "2f6ff43436b4.html"
+  },
+  {
+    "path": "/product-category/accessories/",
+    "title": "إكسسوارات",
+    "bodyClass": "archive tax-product_cat woocommerce woocommerce-page woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "59ae59e6f04c.html"
+  },
+  {
+    "path": "/product/بولو-أطفال-مقلّم/",
+    "title": "بولو أطفال مقلّم",
+    "bodyClass": "single-product postid-123 woocommerce woocommerce-page woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "2658ed3a4e15.html"
+  },
+  {
+    "path": "/category/uncategorized/",
+    "title": "Uncategorized",
+    "bodyClass": "archive category category-uncategorized category-1 woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "18e51aaa5f0c.html"
+  },
+  {
+    "path": "/hello-world/",
+    "title": "Hello world!0000000",
+    "bodyClass": "single-post postid-1 woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "71e67f47946b.html"
+  },
+  {
+    "path": "/sample-page/",
+    "title": "Sample Page",
+    "bodyClass": "page-template-default page-id-2 woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "9390806f8916.html"
+  },
+  {
+    "path": "/author/admin/",
+    "title": "admin",
+    "bodyClass": "archive author author-admin author-1 woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+    "contentFile": "7782870b626b.html"
+  }
+]

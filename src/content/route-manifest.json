@@ -1,0 +1,222 @@
+[
+  {
+    "path": "/",
+    "sourceStatus": 200,
+    "title": "capability-test"
+  },
+  {
+    "path": "/about/",
+    "sourceStatus": 404
+  },
+  {
+    "path": "/cart/",
+    "sourceStatus": 200,
+    "title": "سلة المشتريات"
+  },
+  {
+    "path": "/help/",
+    "sourceStatus": 404
+  },
+  {
+    "path": "/journal/",
+    "sourceStatus": 200,
+    "title": "المجلة"
+  },
+  {
+    "path": "/lookbook/",
+    "sourceStatus": 200,
+    "title": "لوكبوك"
+  },
+  {
+    "path": "/my-account/",
+    "sourceStatus": 200,
+    "title": "حسابي"
+  },
+  {
+    "path": "/policies/",
+    "sourceStatus": 404
+  },
+  {
+    "path": "/product-category/kids/",
+    "sourceStatus": 200,
+    "title": "أطفال"
+  },
+  {
+    "path": "/product-category/men/",
+    "sourceStatus": 200,
+    "title": "رجالي"
+  },
+  {
+    "path": "/product/بلوفر-تريكو-بدرجات-ترابي/",
+    "sourceStatus": 200,
+    "title": "بلوفر تريكو بدرجات ترابي"
+  },
+  {
+    "path": "/product/سويتشيرت-أطفال-بخطوط/",
+    "sourceStatus": 200,
+    "title": "سويتشيرت أطفال بخطوط"
+  },
+  {
+    "path": "/product/طقم-بدلة-سادة/",
+    "sourceStatus": 200,
+    "title": "طقم بدلة سادة"
+  },
+  {
+    "path": "/product/معطف-صوف-بلون-الجمل/",
+    "sourceStatus": 200,
+    "title": "معطف صوف بلون الجمل"
+  },
+  {
+    "path": "/shop/",
+    "sourceStatus": 200,
+    "title": "المتجر"
+  },
+  {
+    "path": "/size-guide/",
+    "sourceStatus": 404
+  },
+  {
+    "path": "/style-finder/",
+    "sourceStatus": 404
+  },
+  {
+    "path": "/",
+    "query": "page_id=3",
+    "sourceStatus": 404
+  },
+  {
+    "path": "/my-account/lost-password/",
+    "sourceStatus": 200,
+    "title": "نسيت كلمة المرور"
+  },
+  {
+    "path": "/product-category/clothing/",
+    "sourceStatus": 200,
+    "title": "ملابس"
+  },
+  {
+    "path": "/product/أوفرشيرت-قطن-مبروم/",
+    "sourceStatus": 200,
+    "title": "أوفرشيرت قطن مبروم"
+  },
+  {
+    "path": "/product/بنطال-جينز-كاجوال-تجريبي/",
+    "sourceStatus": 200,
+    "title": "بنطال جينز كاجوال – تجريبي"
+  },
+  {
+    "path": "/product/تيشيرت-أطفال-مقلّم-فاتح/",
+    "sourceStatus": 200,
+    "title": "تيشيرت أطفال مقلّم فاتح"
+  },
+  {
+    "path": "/product/تيشيرت-قطني-أساسي-تجريبي/",
+    "sourceStatus": 200,
+    "title": "تيشيرت قطني أساسي – تجريبي"
+  },
+  {
+    "path": "/product/سترة-هودي-شتوية-تجريبي/",
+    "sourceStatus": 200,
+    "title": "سترة هودي شتوية – تجريبي"
+  },
+  {
+    "path": "/product/سوار-معصم-جلدي-تجريبي/",
+    "sourceStatus": 200,
+    "title": "سوار معصم جلدي – تجريبي"
+  },
+  {
+    "path": "/product/قميص-أطفال-بني/",
+    "sourceStatus": 200,
+    "title": "قميص أطفال بني"
+  },
+  {
+    "path": "/product/قميص-مقلّم-بقصّة-واسعة/",
+    "sourceStatus": 200,
+    "title": "قميص مقلّم بقصّة واسعة"
+  },
+  {
+    "path": "/product/محفظة-بطاقات-جلدية-تجريبي/",
+    "sourceStatus": 200,
+    "title": "محفظة بطاقات جلدية – تجريبي"
+  },
+  {
+    "path": "/product/معطف-طويل-أسود/",
+    "sourceStatus": 200,
+    "title": "معطف طويل أسود"
+  },
+  {
+    "path": "/product/نظارة-شمسية-كلاسيكية-تجريبي/",
+    "sourceStatus": 200,
+    "title": "نظارة شمسية كلاسيكية – تجريبي"
+  },
+  {
+    "path": "/color/black/",
+    "sourceStatus": 200,
+    "title": "أسود"
+  },
+  {
+    "path": "/color/brown/",
+    "sourceStatus": 200,
+    "title": "بني"
+  },
+  {
+    "path": "/color/white/",
+    "sourceStatus": 200,
+    "title": "أبيض"
+  },
+  {
+    "path": "/size/l/",
+    "sourceStatus": 200,
+    "title": "L"
+  },
+  {
+    "path": "/size/m/",
+    "sourceStatus": 200,
+    "title": "M"
+  },
+  {
+    "path": "/size/s/",
+    "sourceStatus": 200,
+    "title": "S"
+  },
+  {
+    "path": "/size/xl/",
+    "sourceStatus": 200,
+    "title": "XL"
+  },
+  {
+    "path": "/checkout/",
+    "sourceStatus": 302,
+    "redirect": "/cart/"
+  },
+  {
+    "path": "/product-category/accessories/",
+    "sourceStatus": 200,
+    "title": "إكسسوارات"
+  },
+  {
+    "path": "/product/بولو-أطفال-مقلّم/",
+    "sourceStatus": 200,
+    "title": "بولو أطفال مقلّم"
+  },
+  {
+    "path": "/category/uncategorized/",
+    "sourceStatus": 200,
+    "title": "Uncategorized"
+  },
+  {
+    "path": "/hello-world/",
+    "sourceStatus": 200,
+    "title": "Hello world!0000000"
+  },
+  {
+    "path": "/sample-page/",
+    "sourceStatus": 200,
+    "title": "Sample Page"
+  },
+  {
+    "path": "/author/admin/",
+    "sourceStatus": 200,
+    "title": "admin"
+  }
+]

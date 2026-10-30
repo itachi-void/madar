@@ -1,0 +1,1653 @@
+{
+  "version": 1,
+  "notes": "Madar storefront seed. Existing products are matched by SKU; their names, prices, stock and variations are never changed.",
+  "categories": [
+    {
+      "slug": "men",
+      "name": "رجالي"
+    },
+    {
+      "slug": "kids",
+      "name": "أطفال"
+    }
+  ],
+  "size_charts": {
+    "source": "Captured Madar product size guide (general; not per-product measurements).",
+    "men": {
+      "columns": [
+        "size",
+        "chest_cm",
+        "waist_cm",
+        "length_cm"
+      ],
+      "rows": [
+        [
+          "S",
+          "92–96",
+          "78–82",
+          "70"
+        ],
+        [
+          "M",
+          "97–102",
+          "83–88",
+          "72"
+        ],
+        [
+          "L",
+          "103–108",
+          "89–94",
+          "74"
+        ],
+        [
+          "XL",
+          "109–115",
+          "95–101",
+          "76"
+        ],
+        [
+          "XXL",
+          "116–122",
+          "102–108",
+          "78"
+        ]
+      ]
+    },
+    "kids": {
+      "columns": [
+        "age",
+        "height_cm",
+        "chest_cm"
+      ],
+      "rows": [
+        [
+          "2–3",
+          "92–98",
+          "53–55"
+        ],
+        [
+          "4–5",
+          "104–110",
+          "56–58"
+        ],
+        [
+          "6–7",
+          "116–122",
+          "60–62"
+        ],
+        [
+          "8–9",
+          "128–134",
+          "64–67"
+        ],
+        [
+          "10–12",
+          "140–152",
+          "70–76"
+        ]
+      ]
+    }
+  },
+  "products": [
+    {
+      "key": "coat-camel",
+      "sku": "MDR-DEMO-10",
+      "source_id": 141,
+      "name": "معطف صوف بلون الجمل",
+      "slug": "معطف-صوف-بلون-الجمل",
+      "order": 4,
+      "description": "<p>صوف مخلوط بقصّة مستقيمة وياقة كلاسيكية. طبقة واحدة تكفي الشتا. قطعة أساسية من تشكيلة مدار، معمولة عشان تعيش معاك.</p>",
+      "variations": [
+        {
+          "size": "S",
+          "price": "1890",
+          "in_stock": true,
+          "sale_price": "1490"
+        },
+        {
+          "size": "M",
+          "price": "1890",
+          "in_stock": true,
+          "sale_price": "1490"
+        },
+        {
+          "size": "L",
+          "price": "1890",
+          "in_stock": true,
+          "sale_price": "1490"
+        },
+        {
+          "size": "XL",
+          "price": "1890",
+          "in_stock": false,
+          "sale_price": "1490"
+        }
+      ],
+      "audience": "men",
+      "size_chart": "men",
+      "categories": [
+        "men"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "price": "1490",
+      "create_if_missing": true,
+      "styling_only": false,
+      "pairs": [
+        "knit-cream",
+        "trouser-charcoal",
+        "trouser-stone",
+        "shirt-striped",
+        "overshirt"
+      ],
+      "materials": [
+        "camel-coat-surface"
+      ],
+      "hotspots": [
+        {
+          "id": "collar",
+          "x": 44,
+          "y": 17,
+          "view": "front",
+          "image_role": "detail_1",
+          "label": {
+            "eg": "الياقة",
+            "sa": "الياقة",
+            "en": "Collar",
+            "fr": "Col",
+            "es": "Cuello"
+          }
+        },
+        {
+          "id": "pocket-buttons",
+          "x": 36,
+          "y": 52,
+          "view": "front",
+          "image_role": "detail_2",
+          "label": {
+            "eg": "الجيب والزرار",
+            "sa": "الجيب والزر",
+            "en": "Pocket and button",
+            "fr": "Poche et bouton",
+            "es": "Bolsillo y botón"
+          }
+        }
+      ],
+      "i18n": {
+        "sa": {
+          "name": "معطف صوف بلون الجمل",
+          "description": "<p>صوف مخلوط بقصّة مستقيمة وياقة كلاسيكية، لإطلالات الشتاء. قطعة من تشكيلة مدار لترافقك على مدار يومك.</p>"
+        },
+        "en": {
+          "name": "Camel wool coat",
+          "description": "<p>Blended wool, a straight cut and a classic collar. One layer for winter. A piece from the Madar edit, made to stay with you.</p>"
+        },
+        "fr": {
+          "name": "Manteau en laine camel",
+          "description": "<p>Laine mélangée, coupe droite et col classique. Une couche pour l’hiver. Une pièce de la sélection Madar conçue pour vous accompagner.</p>"
+        },
+        "es": {
+          "name": "Abrigo de lana camel",
+          "description": "<p>Lana mezclada, corte recto y cuello clásico. Una capa para el invierno. Una pieza de la selección Madar pensada para acompañarte.</p>"
+        }
+      },
+      "images": {
+        "front": "coat-camel-front.png",
+        "back": "coat-camel-back.png",
+        "on_model": "coat-camel-on-model.jpg",
+        "detail_1": "coat-camel-collar.jpg",
+        "detail_2": "coat-camel-pocket-buttons.jpg"
+      }
+    },
+    {
+      "key": "suit-charcoal",
+      "sku": "MDR-DEMO-3",
+      "source_id": 98,
+      "name": "طقم بدلة سادة",
+      "slug": "طقم-بدلة-سادة",
+      "order": 3,
+      "description": "<p>جاكيت وبنطلون بقصّة حديثة. للمناسبات والشغل. قطعة أساسية من تشكيلة مدار، معمولة عشان تعيش معاك.</p>",
+      "variations": [
+        {
+          "size": "S",
+          "price": "2490",
+          "in_stock": true,
+          "sale_price": "2190"
+        },
+        {
+          "size": "M",
+          "price": "2490",
+          "in_stock": true,
+          "sale_price": "2190"
+        },
+        {
+          "size": "L",
+          "price": "2490",
+          "in_stock": true,
+          "sale_price": "2190"
+        },
+        {
+          "size": "XL",
+          "price": "2490",
+          "in_stock": true,
+          "sale_price": "2190"
+        }
+      ],
+      "audience": "men",
+      "size_chart": "men",
+      "categories": [
+        "men"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "price": "2190",
+      "create_if_missing": true,
+      "styling_only": false,
+      "pairs": [
+        "coat-black",
+        "shirt-striped",
+        "knit-cream"
+      ],
+      "materials": [
+        "suiting"
+      ],
+      "hotspots": [
+        {
+          "id": "lapel-button",
+          "x": 45,
+          "y": 20,
+          "view": "front",
+          "image_role": "detail_1",
+          "label": {
+            "eg": "الياقة والزرار",
+            "sa": "الياقة والزر",
+            "en": "Lapel and button",
+            "fr": "Revers et bouton",
+            "es": "Solapa y botón"
+          }
+        },
+        {
+          "id": "cuff-weave",
+          "x": 22,
+          "y": 48,
+          "view": "front",
+          "image_role": "detail_2",
+          "label": {
+            "eg": "الكم والنسيج",
+            "sa": "الكم والنسيج",
+            "en": "Cuff and weave",
+            "fr": "Poignet et tissage",
+            "es": "Puño y tejido"
+          }
+        }
+      ],
+      "i18n": {
+        "sa": {
+          "name": "طقم بدلة سادة",
+          "description": "<p>جاكيت وبنطال بقصّة عصرية، للمناسبات والعمل. قطعة من تشكيلة مدار لترافقك على مدار يومك.</p>"
+        },
+        "en": {
+          "name": "Plain two-piece suit",
+          "description": "<p>A jacket and trousers with a contemporary cut, for occasions and work. A piece from the Madar edit, made to stay with you.</p>"
+        },
+        "fr": {
+          "name": "Costume uni deux pièces",
+          "description": "<p>Veste et pantalon à la coupe actuelle, pour les occasions et le travail. Une pièce de la sélection Madar conçue pour vous accompagner.</p>"
+        },
+        "es": {
+          "name": "Traje liso de dos piezas",
+          "description": "<p>Chaqueta y pantalón de corte actual para ocasiones y trabajo. Una pieza de la selección Madar pensada para acompañarte.</p>"
+        }
+      },
+      "images": {
+        "front": "suit-charcoal-front.png",
+        "back": "suit-charcoal-back.png",
+        "on_model": "suit-charcoal-on-model.jpg",
+        "detail_1": "suit-charcoal-lapel-button.jpg",
+        "detail_2": "suit-charcoal-cuff-weave.jpg"
+      }
+    },
+    {
+      "key": "knit-cream",
+      "sku": "MDR-DEMO-1",
+      "source_id": 86,
+      "name": "بلوفر تريكو بدرجات ترابي",
+      "slug": "بلوفر-تريكو-بدرجات-ترابي",
+      "order": 1,
+      "description": "<p>تريكو ناعم وتقيل بألوان تتنسّق مع كل حاجة. قطعة أساسية من تشكيلة مدار، معمولة عشان تعيش معاك.</p>",
+      "variations": [
+        {
+          "size": "S",
+          "price": "790",
+          "in_stock": true
+        },
+        {
+          "size": "M",
+          "price": "790",
+          "in_stock": true
+        },
+        {
+          "size": "L",
+          "price": "790",
+          "in_stock": true
+        },
+        {
+          "size": "XL",
+          "price": "790",
+          "in_stock": false
+        }
+      ],
+      "audience": "men",
+      "size_chart": "men",
+      "categories": [
+        "men"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "price": "790",
+      "create_if_missing": true,
+      "styling_only": false,
+      "pairs": [
+        "coat-camel",
+        "coat-black",
+        "trouser-charcoal",
+        "trouser-stone"
+      ],
+      "materials": [
+        "rib-knit"
+      ],
+      "hotspots": [
+        {
+          "id": "collar-rib",
+          "x": 50,
+          "y": 12,
+          "view": "front",
+          "image_role": "detail_1",
+          "label": {
+            "eg": "الياقة العالية",
+            "sa": "الياقة العالية",
+            "en": "Turtleneck collar",
+            "fr": "Col roulé",
+            "es": "Cuello alto"
+          }
+        },
+        {
+          "id": "cuff-hem",
+          "x": 26,
+          "y": 64,
+          "view": "front",
+          "image_role": "detail_2",
+          "label": {
+            "eg": "الأساور والحافة",
+            "sa": "الأساور والحافة",
+            "en": "Cuff and hem",
+            "fr": "Poignet et ourlet",
+            "es": "Puño y bajo"
+          }
+        }
+      ],
+      "i18n": {
+        "sa": {
+          "name": "بلوفر تريكو بدرجات ترابي",
+          "description": "<p>تريكو ناعم وكثيف بألوان يسهل تنسيقها. قطعة أساسية من تشكيلة مدار لترافقك على مدار يومك.</p>"
+        },
+        "en": {
+          "name": "Earth-tone knitted sweater",
+          "description": "<p>Soft, substantial knitwear in easy-to-pair colours. A wardrobe piece from the Madar edit, made to stay with you.</p>"
+        },
+        "fr": {
+          "name": "Pull en maille aux tons naturels",
+          "description": "<p>Une maille douce et généreuse aux couleurs faciles à associer. Une pièce de la sélection Madar conçue pour vous accompagner.</p>"
+        },
+        "es": {
+          "name": "Jersey de punto en tonos tierra",
+          "description": "<p>Punto suave y consistente en colores fáciles de combinar. Una pieza de la selección Madar pensada para acompañarte.</p>"
+        }
+      },
+      "images": {
+        "front": "knit-cream-front.png",
+        "back": "knit-cream-back.png",
+        "on_model": "knit-cream-on-model.jpg",
+        "detail_1": "knit-cream-collar-rib.jpg",
+        "detail_2": "knit-cream-cuff-hem.jpg"
+      }
+    },
+    {
+      "key": "coat-black",
+      "sku": "MDR-DEMO-2",
+      "source_id": 93,
+      "name": "معطف طويل أسود",
+      "slug": "معطف-طويل-أسود",
+      "order": 14,
+      "description": "<p>قصّة طويلة وخامة متماسكة. هادي ومرتب. قطعة أساسية من تشكيلة مدار، معمولة عشان تعيش معاك.</p>",
+      "variations": [
+        {
+          "size": "S",
+          "price": "2190",
+          "in_stock": true
+        },
+        {
+          "size": "M",
+          "price": "2190",
+          "in_stock": true
+        },
+        {
+          "size": "L",
+          "price": "2190",
+          "in_stock": true
+        },
+        {
+          "size": "XL",
+          "price": "2190",
+          "in_stock": true
+        }
+      ],
+      "audience": "men",
+      "size_chart": "men",
+      "categories": [
+        "men"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "price": "2190",
+      "create_if_missing": true,
+      "styling_only": false,
+      "pairs": [
+        "suit-charcoal",
+        "knit-cream",
+        "trouser-charcoal",
+        "shirt-striped"
+      ],
+      "materials": [],
+      "hotspots": [
+        {
+          "id": "collar",
+          "x": 44,
+          "y": 17,
+          "view": "front",
+          "image_role": "detail_1",
+          "label": {
+            "eg": "الياقة",
+            "sa": "الياقة",
+            "en": "Collar",
+            "fr": "Col",
+            "es": "Cuello"
+          }
+        },
+        {
+          "id": "pocket-closure",
+          "x": 36,
+          "y": 52,
+          "view": "front",
+          "image_role": "detail_2",
+          "label": {
+            "eg": "الجيب والإغلاق",
+            "sa": "الجيب والإغلاق",
+            "en": "Pocket and closure",
+            "fr": "Poche et fermeture",
+            "es": "Bolsillo y cierre"
+          }
+        }
+      ],
+      "i18n": {
+        "sa": {
+          "name": "معطف طويل أسود",
+          "description": "<p>قصّة طويلة وخامة متماسكة، لإطلالة هادئة ومرتّبة. قطعة من تشكيلة مدار لترافقك على مدار يومك.</p>"
+        },
+        "en": {
+          "name": "Long black coat",
+          "description": "<p>A long cut and structured fabric. Quiet and considered. A piece from the Madar edit, made to stay with you.</p>"
+        },
+        "fr": {
+          "name": "Manteau long noir",
+          "description": "<p>Coupe longue et tissu structuré. Discret et soigné. Une pièce de la sélection Madar conçue pour vous accompagner.</p>"
+        },
+        "es": {
+          "name": "Abrigo largo negro",
+          "description": "<p>Corte largo y tejido estructurado. Sereno y cuidado. Una pieza de la selección Madar pensada para acompañarte.</p>"
+        }
+      },
+      "images": {
+        "front": "coat-black-front.png",
+        "back": "coat-black-back.png",
+        "on_model": "coat-black-on-model.jpg",
+        "detail_1": "coat-black-collar.jpg",
+        "detail_2": "coat-black-pocket-closure.jpg"
+      }
+    },
+    {
+      "key": "overshirt",
+      "sku": "MDR-DEMO-8",
+      "source_id": 128,
+      "name": "أوفرشيرت قطن مبروم",
+      "slug": "أوفرشيرت-قطن-مبروم",
+      "order": 5,
+      "description": "<p>قطن تقيل بجيوب صدر. فوق تيشيرت، أو تحت معطف. قطعة أساسية من تشكيلة مدار، معمولة عشان تعيش معاك.</p>",
+      "variations": [
+        {
+          "size": "S",
+          "price": "990",
+          "in_stock": true
+        },
+        {
+          "size": "M",
+          "price": "990",
+          "in_stock": true
+        },
+        {
+          "size": "L",
+          "price": "990",
+          "in_stock": true
+        },
+        {
+          "size": "XL",
+          "price": "990",
+          "in_stock": true
+        }
+      ],
+      "audience": "men",
+      "size_chart": "men",
+      "categories": [
+        "men"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "price": "990",
+      "create_if_missing": true,
+      "styling_only": false,
+      "pairs": [
+        "shirt-striped",
+        "trouser-stone",
+        "knit-cream",
+        "coat-camel"
+      ],
+      "materials": [],
+      "hotspots": [
+        {
+          "id": "collar-placket",
+          "x": 50,
+          "y": 15,
+          "view": "front",
+          "image_role": "detail_1",
+          "label": {
+            "eg": "الياقة والأزرار",
+            "sa": "الياقة والأزرار",
+            "en": "Collar and placket",
+            "fr": "Col et patte",
+            "es": "Cuello y tapeta"
+          }
+        },
+        {
+          "id": "pocket-cuff",
+          "x": 38,
+          "y": 32,
+          "view": "front",
+          "image_role": "detail_2",
+          "label": {
+            "eg": "الجيب والكم",
+            "sa": "الجيب والكم",
+            "en": "Pocket and cuff",
+            "fr": "Poche et poignet",
+            "es": "Bolsillo y puño"
+          }
+        }
+      ],
+      "i18n": {
+        "sa": {
+          "name": "أوفرشيرت قطن مبروم",
+          "description": "<p>قطن كثيف بجيوب صدر، فوق تيشيرت أو تحت معطف. قطعة من تشكيلة مدار لترافقك على مدار يومك.</p>"
+        },
+        "en": {
+          "name": "Textured cotton overshirt",
+          "description": "<p>Substantial cotton with chest pockets. Over a T-shirt or under a coat. A piece from the Madar edit, made to stay with you.</p>"
+        },
+        "fr": {
+          "name": "Surchemise en coton texturé",
+          "description": "<p>Coton épais avec poches poitrine. Sur un T-shirt ou sous un manteau. Une pièce de la sélection Madar conçue pour vous accompagner.</p>"
+        },
+        "es": {
+          "name": "Sobrecamisa de algodón texturizado",
+          "description": "<p>Algodón consistente con bolsillos de pecho. Sobre una camiseta o bajo un abrigo. Una pieza de la selección Madar pensada para acompañarte.</p>"
+        }
+      },
+      "images": {
+        "front": "overshirt-front.png",
+        "back": "overshirt-back.png",
+        "on_model": "overshirt-on-model.jpg",
+        "detail_1": "overshirt-collar-placket.jpg",
+        "detail_2": "overshirt-pocket-cuff.jpg"
+      }
+    },
+    {
+      "key": "shirt-striped",
+      "sku": "MDR-DEMO-6",
+      "source_id": 118,
+      "name": "قميص مقلّم بقصّة واسعة",
+      "slug": "قميص-مقلّم-بقصّة-واسعة",
+      "order": 12,
+      "description": "<p>قطن خفيف بخطوط رفيعة. للصيف والأيام الدافية. قطعة أساسية من تشكيلة مدار، معمولة عشان تعيش معاك.</p>",
+      "variations": [
+        {
+          "size": "S",
+          "price": "690",
+          "in_stock": true
+        },
+        {
+          "size": "M",
+          "price": "690",
+          "in_stock": true
+        },
+        {
+          "size": "L",
+          "price": "690",
+          "in_stock": true
+        },
+        {
+          "size": "XL",
+          "price": "690",
+          "in_stock": true
+        }
+      ],
+      "audience": "men",
+      "size_chart": "men",
+      "categories": [
+        "men"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "price": "690",
+      "create_if_missing": true,
+      "styling_only": false,
+      "pairs": [
+        "overshirt",
+        "trouser-stone",
+        "trouser-charcoal",
+        "suit-charcoal"
+      ],
+      "materials": [
+        "striped-shirting"
+      ],
+      "hotspots": [
+        {
+          "id": "collar-stripes",
+          "x": 50,
+          "y": 13,
+          "view": "front",
+          "image_role": "detail_1",
+          "label": {
+            "eg": "الياقة والخطوط",
+            "sa": "الياقة والخطوط",
+            "en": "Collar and stripes",
+            "fr": "Col et rayures",
+            "es": "Cuello y rayas"
+          }
+        },
+        {
+          "id": "cuff-button",
+          "x": 22,
+          "y": 70,
+          "view": "front",
+          "image_role": "detail_2",
+          "label": {
+            "eg": "الكم والزرار",
+            "sa": "الكم والزر",
+            "en": "Cuff and button",
+            "fr": "Poignet et bouton",
+            "es": "Puño y botón"
+          }
+        }
+      ],
+      "i18n": {
+        "sa": {
+          "name": "قميص مقلّم بقصّة واسعة",
+          "description": "<p>قطن خفيف بخطوط رفيعة، للصيف والأيام الدافئة. قطعة من تشكيلة مدار لترافقك على مدار يومك.</p>"
+        },
+        "en": {
+          "name": "Relaxed striped shirt",
+          "description": "<p>Light cotton with fine stripes, for summer and warmer days. A piece from the Madar edit, made to stay with you.</p>"
+        },
+        "fr": {
+          "name": "Chemise rayée ample",
+          "description": "<p>Coton léger à fines rayures, pour l’été et les journées douces. Une pièce de la sélection Madar conçue pour vous accompagner.</p>"
+        },
+        "es": {
+          "name": "Camisa de rayas de corte amplio",
+          "description": "<p>Algodón ligero de rayas finas para los días cálidos. Una pieza de la selección Madar pensada para acompañarte.</p>"
+        }
+      },
+      "images": {
+        "front": "shirt-striped-front.png",
+        "back": "shirt-striped-back.png",
+        "on_model": "shirt-striped-on-model.jpg",
+        "detail_1": "shirt-striped-collar-stripes.jpg",
+        "detail_2": "shirt-striped-cuff-button.jpg"
+      }
+    },
+    {
+      "key": "kids-sweatshirt-striped",
+      "sku": "MDR-DEMO-5",
+      "source_id": 111,
+      "name": "سويتشيرت أطفال بخطوط",
+      "slug": "سويتشيرت-أطفال-بخطوط",
+      "order": 2,
+      "description": "<p>قطن مبطّن من جوه بخطوط كلاسيكية. دافي ومريح. قطعة أساسية من تشكيلة مدار، معمولة عشان تعيش معاك.</p>",
+      "variations": [
+        {
+          "size": "2–3",
+          "price": "520",
+          "in_stock": true
+        },
+        {
+          "size": "4–5",
+          "price": "520",
+          "in_stock": true
+        },
+        {
+          "size": "6–7",
+          "price": "520",
+          "in_stock": true
+        },
+        {
+          "size": "8–9",
+          "price": "520",
+          "in_stock": true
+        }
+      ],
+      "audience": "kids",
+      "size_chart": "kids",
+      "categories": [
+        "kids"
+      ],
+      "sizes": [
+        "2–3",
+        "4–5",
+        "6–7",
+        "8–9"
+      ],
+      "price": "520",
+      "create_if_missing": true,
+      "styling_only": false,
+      "pairs": [
+        "kids-chino-navy",
+        "kids-tee-striped"
+      ],
+      "materials": [
+        "kids-jersey"
+      ],
+      "hotspots": [
+        {
+          "id": "collar-stripes",
+          "x": 50,
+          "y": 13,
+          "view": "front",
+          "image_role": "detail_1",
+          "label": {
+            "eg": "الياقة والخطوط",
+            "sa": "الياقة والخطوط",
+            "en": "Collar and stripes",
+            "fr": "Col et rayures",
+            "es": "Cuello y rayas"
+          }
+        },
+        {
+          "id": "cuff-hem",
+          "x": 24,
+          "y": 74,
+          "view": "front",
+          "image_role": "detail_2",
+          "label": {
+            "eg": "الأساور والحافة",
+            "sa": "الأساور والحافة",
+            "en": "Cuff and hem",
+            "fr": "Poignet et ourlet",
+            "es": "Puño y bajo"
+          }
+        }
+      ],
+      "i18n": {
+        "sa": {
+          "name": "سويتشيرت أطفال بخطوط",
+          "description": "<p>قطن مبطّن من الداخل بخطوط كلاسيكية، دافئ ومريح. قطعة من تشكيلة مدار لترافقك على مدار يومك.</p>"
+        },
+        "en": {
+          "name": "Kids’ striped sweatshirt",
+          "description": "<p>Lined cotton with classic stripes. Warm and comfortable. A piece from the Madar edit, made to stay with you.</p>"
+        },
+        "fr": {
+          "name": "Sweat rayé enfant",
+          "description": "<p>Coton doublé à rayures classiques. Chaud et confortable. Une pièce de la sélection Madar conçue pour vous accompagner.</p>"
+        },
+        "es": {
+          "name": "Sudadera infantil de rayas",
+          "description": "<p>Algodón forrado de rayas clásicas. Cálido y cómodo. Una pieza de la selección Madar pensada para acompañarte.</p>"
+        }
+      },
+      "images": {
+        "front": "kids-sweatshirt-striped-front.png",
+        "back": "kids-sweatshirt-striped-back.png",
+        "on_model": "kids-sweatshirt-striped-on-model.jpg",
+        "detail_1": "kids-sweatshirt-striped-collar-stripes.jpg",
+        "detail_2": "kids-sweatshirt-striped-cuff-hem.jpg"
+      }
+    },
+    {
+      "key": "kids-tee-striped",
+      "sku": "MDR-DEMO-4",
+      "source_id": 105,
+      "name": "تيشيرت أطفال مقلّم فاتح",
+      "slug": "تيشيرت-أطفال-مقلّم-فاتح",
+      "order": 7,
+      "description": "<p>تيشيرت قطن خفيف لأيام اللعب. قطعة أساسية من تشكيلة مدار، معمولة عشان تعيش معاك.</p>",
+      "variations": [
+        {
+          "size": "2–3",
+          "price": "320",
+          "in_stock": true
+        },
+        {
+          "size": "4–5",
+          "price": "320",
+          "in_stock": true
+        },
+        {
+          "size": "6–7",
+          "price": "320",
+          "in_stock": true
+        },
+        {
+          "size": "8–9",
+          "price": "320",
+          "in_stock": false
+        }
+      ],
+      "audience": "kids",
+      "size_chart": "kids",
+      "categories": [
+        "kids"
+      ],
+      "sizes": [
+        "2–3",
+        "4–5",
+        "6–7",
+        "8–9"
+      ],
+      "price": "320",
+      "create_if_missing": true,
+      "styling_only": false,
+      "pairs": [
+        "kids-chino-navy",
+        "kids-sweatshirt-striped"
+      ],
+      "materials": [],
+      "hotspots": [
+        {
+          "id": "neck-stripes",
+          "x": 50,
+          "y": 11,
+          "view": "front",
+          "image_role": "detail_1",
+          "label": {
+            "eg": "فتحة الرقبة والخطوط",
+            "sa": "فتحة الرقبة والخطوط",
+            "en": "Neckline and stripes",
+            "fr": "Encolure et rayures",
+            "es": "Escote y rayas"
+          }
+        },
+        {
+          "id": "sleeve-hem",
+          "x": 24,
+          "y": 30,
+          "view": "front",
+          "image_role": "detail_2",
+          "label": {
+            "eg": "حافة الكم",
+            "sa": "حافة الكم",
+            "en": "Sleeve hem",
+            "fr": "Ourlet de manche",
+            "es": "Bajo de manga"
+          }
+        }
+      ],
+      "i18n": {
+        "sa": {
+          "name": "تيشيرت أطفال مقلّم فاتح",
+          "description": "<p>تيشيرت قطن خفيف لأيام اللعب. قطعة من تشكيلة مدار لترافقك على مدار يومك.</p>"
+        },
+        "en": {
+          "name": "Kids’ light striped T-shirt",
+          "description": "<p>A light cotton T-shirt for play days. A wardrobe piece from the Madar edit, made to stay with you.</p>"
+        },
+        "fr": {
+          "name": "T-shirt enfant à fines rayures",
+          "description": "<p>Un T-shirt en coton léger pour jouer. Une pièce de la sélection Madar conçue pour vous accompagner.</p>"
+        },
+        "es": {
+          "name": "Camiseta infantil de rayas claras",
+          "description": "<p>Camiseta de algodón ligero para jugar. Una pieza de la selección Madar pensada para acompañarte.</p>"
+        }
+      },
+      "images": {
+        "front": "kids-tee-striped-front.png",
+        "back": "kids-tee-striped-back.png",
+        "on_model": "kids-tee-striped-on-model.jpg",
+        "detail_1": "kids-tee-striped-neck-stripes.jpg",
+        "detail_2": "kids-tee-striped-sleeve-hem.jpg"
+      }
+    },
+    {
+      "key": "kids-shirt-brown",
+      "sku": "MDR-DEMO-9",
+      "source_id": 134,
+      "name": "قميص أطفال بني",
+      "slug": "قميص-أطفال-بني",
+      "order": 11,
+      "description": "<p>قميص بياقة صغيرة ولون دافي. للعيد والزيارات. قطعة أساسية من تشكيلة مدار، معمولة عشان تعيش معاك.</p>",
+      "variations": [
+        {
+          "size": "2–3",
+          "price": "480",
+          "in_stock": true,
+          "sale_price": "390"
+        },
+        {
+          "size": "4–5",
+          "price": "480",
+          "in_stock": true,
+          "sale_price": "390"
+        },
+        {
+          "size": "6–7",
+          "price": "480",
+          "in_stock": true,
+          "sale_price": "390"
+        },
+        {
+          "size": "8–9",
+          "price": "480",
+          "in_stock": true,
+          "sale_price": "390"
+        }
+      ],
+      "audience": "kids",
+      "size_chart": "kids",
+      "categories": [
+        "kids"
+      ],
+      "sizes": [
+        "2–3",
+        "4–5",
+        "6–7",
+        "8–9"
+      ],
+      "price": "390",
+      "create_if_missing": true,
+      "styling_only": false,
+      "pairs": [
+        "kids-chino-navy",
+        "kids-tee-striped"
+      ],
+      "materials": [],
+      "hotspots": [
+        {
+          "id": "collar-buttons",
+          "x": 50,
+          "y": 15,
+          "view": "front",
+          "image_role": "detail_1",
+          "label": {
+            "eg": "الياقة والأزرار",
+            "sa": "الياقة والأزرار",
+            "en": "Collar and buttons",
+            "fr": "Col et boutons",
+            "es": "Cuello y botones"
+          }
+        },
+        {
+          "id": "pocket-cuff",
+          "x": 38,
+          "y": 30,
+          "view": "front",
+          "image_role": "detail_2",
+          "label": {
+            "eg": "الجيب والكم",
+            "sa": "الجيب والكم",
+            "en": "Pocket and cuff",
+            "fr": "Poche et poignet",
+            "es": "Bolsillo y puño"
+          }
+        }
+      ],
+      "i18n": {
+        "sa": {
+          "name": "قميص أطفال بني",
+          "description": "<p>قميص بياقة صغيرة ولون دافئ، للعيد والزيارات. قطعة من تشكيلة مدار لترافقك على مدار يومك.</p>"
+        },
+        "en": {
+          "name": "Kids’ brown shirt",
+          "description": "<p>A small collar and a warm colour, for celebrations and visits. A piece from the Madar edit, made to stay with you.</p>"
+        },
+        "fr": {
+          "name": "Chemise brune enfant",
+          "description": "<p>Un petit col et une couleur chaleureuse, pour les fêtes et les visites. Une pièce de la sélection Madar conçue pour vous accompagner.</p>"
+        },
+        "es": {
+          "name": "Camisa infantil marrón",
+          "description": "<p>Cuello pequeño y color cálido, para celebraciones y visitas. Una pieza de la selección Madar pensada para acompañarte.</p>"
+        }
+      },
+      "images": {
+        "front": "kids-shirt-brown-front.png",
+        "back": "kids-shirt-brown-back.png",
+        "on_model": "kids-shirt-brown-on-model.jpg",
+        "detail_1": "kids-shirt-brown-collar-buttons.jpg",
+        "detail_2": "kids-shirt-brown-pocket-cuff.jpg"
+      }
+    },
+    {
+      "key": "kids-polo-striped",
+      "sku": "MDR-DEMO-7",
+      "source_id": 123,
+      "name": "بولو أطفال مقلّم",
+      "slug": "بولو-أطفال-مقلّم",
+      "order": 16,
+      "description": "<p>قطن ناعم على الجلد بخطوط كحلي. يتغسل ويتلبس كتير. قطعة أساسية من تشكيلة مدار، معمولة عشان تعيش معاك.</p>",
+      "variations": [
+        {
+          "size": "2–3",
+          "price": "420",
+          "in_stock": true
+        },
+        {
+          "size": "4–5",
+          "price": "420",
+          "in_stock": true
+        },
+        {
+          "size": "6–7",
+          "price": "420",
+          "in_stock": true
+        },
+        {
+          "size": "8–9",
+          "price": "420",
+          "in_stock": false
+        }
+      ],
+      "audience": "kids",
+      "size_chart": "kids",
+      "categories": [
+        "kids"
+      ],
+      "sizes": [
+        "2–3",
+        "4–5",
+        "6–7",
+        "8–9"
+      ],
+      "price": "420",
+      "create_if_missing": true,
+      "styling_only": false,
+      "pairs": [
+        "kids-chino-navy"
+      ],
+      "materials": [],
+      "hotspots": [
+        {
+          "id": "collar-placket",
+          "x": 50,
+          "y": 13,
+          "view": "front",
+          "image_role": "detail_1",
+          "label": {
+            "eg": "الياقة والأزرار",
+            "sa": "الياقة والأزرار",
+            "en": "Collar and placket",
+            "fr": "Col et patte",
+            "es": "Cuello y tapeta"
+          }
+        },
+        {
+          "id": "fabric-stripes",
+          "x": 55,
+          "y": 55,
+          "view": "front",
+          "image_role": "detail_2",
+          "label": {
+            "eg": "القماش والخطوط",
+            "sa": "القماش والخطوط",
+            "en": "Fabric and stripes",
+            "fr": "Tissu et rayures",
+            "es": "Tejido y rayas"
+          }
+        }
+      ],
+      "i18n": {
+        "sa": {
+          "name": "بولو أطفال مقلّم",
+          "description": "<p>قطن ناعم على البشرة بخطوط كحلية، لارتداء يومي سهل. قطعة من تشكيلة مدار لترافقك على مدار يومك.</p>"
+        },
+        "en": {
+          "name": "Kids’ striped polo",
+          "description": "<p>Soft cotton with navy stripes, for days of wearing and washing. A piece from the Madar edit, made to stay with you.</p>"
+        },
+        "fr": {
+          "name": "Polo rayé enfant",
+          "description": "<p>Coton doux à rayures marine, à porter et laver au quotidien. Une pièce de la sélection Madar conçue pour vous accompagner.</p>"
+        },
+        "es": {
+          "name": "Polo infantil de rayas",
+          "description": "<p>Algodón suave de rayas azul marino para el día a día. Una pieza de la selección Madar pensada para acompañarte.</p>"
+        }
+      },
+      "images": {
+        "front": "kids-polo-striped-front.png",
+        "back": "kids-polo-striped-back.png",
+        "on_model": "kids-polo-striped-on-model.jpg",
+        "detail_1": "kids-polo-striped-collar-placket.jpg",
+        "detail_2": "kids-polo-striped-fabric-stripes.jpg"
+      }
+    },
+    {
+      "key": "trouser-charcoal",
+      "sku": "MDR-STYLE-1",
+      "name": "بنطلون رمادي فحمي",
+      "order": 110,
+      "audience": "men",
+      "size_chart": "men",
+      "categories": [
+        "men"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "price": "",
+      "create_if_missing": true,
+      "styling_only": true,
+      "pairs": [
+        "coat-camel",
+        "knit-cream",
+        "coat-black",
+        "shirt-striped"
+      ],
+      "materials": [],
+      "hotspots": [
+        {
+          "id": "waistband",
+          "x": 50,
+          "y": 8,
+          "view": "front",
+          "image_role": "detail_1",
+          "label": {
+            "eg": "الوسط",
+            "sa": "الخصر",
+            "en": "Waistband",
+            "fr": "Ceinture",
+            "es": "Cinturilla"
+          }
+        }
+      ],
+      "i18n": {
+        "sa": {
+          "name": "بنطال رمادي فحمي"
+        },
+        "en": {
+          "name": "Charcoal tapered trousers"
+        },
+        "fr": {
+          "name": "Pantalon fuselé anthracite"
+        },
+        "es": {
+          "name": "Pantalón entallado gris carbón"
+        }
+      },
+      "images": {
+        "front": "trouser-charcoal-front.png",
+        "back": "trouser-charcoal-back.png",
+        "detail_1": "trouser-charcoal-waistband.jpg"
+      }
+    },
+    {
+      "key": "trouser-stone",
+      "sku": "MDR-STYLE-2",
+      "name": "تشينو بلون الحجر",
+      "order": 111,
+      "audience": "men",
+      "size_chart": "men",
+      "categories": [
+        "men"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "price": "",
+      "create_if_missing": true,
+      "styling_only": true,
+      "pairs": [
+        "overshirt",
+        "shirt-striped",
+        "coat-camel",
+        "knit-cream"
+      ],
+      "materials": [],
+      "hotspots": [
+        {
+          "id": "waistband",
+          "x": 50,
+          "y": 8,
+          "view": "front",
+          "image_role": "detail_1",
+          "label": {
+            "eg": "الوسط",
+            "sa": "الخصر",
+            "en": "Waistband",
+            "fr": "Ceinture",
+            "es": "Cinturilla"
+          }
+        }
+      ],
+      "i18n": {
+        "sa": {
+          "name": "تشينو بلون الحجر"
+        },
+        "en": {
+          "name": "Stone chinos"
+        },
+        "fr": {
+          "name": "Chino couleur pierre"
+        },
+        "es": {
+          "name": "Chino color piedra"
+        }
+      },
+      "images": {
+        "front": "trouser-stone-front.png",
+        "back": "trouser-stone-back.png",
+        "detail_1": "trouser-stone-waistband.jpg"
+      }
+    },
+    {
+      "key": "kids-chino-navy",
+      "sku": "MDR-STYLE-3",
+      "name": "تشينو أطفال كحلي",
+      "order": 112,
+      "audience": "kids",
+      "size_chart": "kids",
+      "categories": [
+        "kids"
+      ],
+      "sizes": [
+        "2–3",
+        "4–5",
+        "6–7",
+        "8–9"
+      ],
+      "price": "",
+      "create_if_missing": true,
+      "styling_only": true,
+      "pairs": [
+        "kids-sweatshirt-striped",
+        "kids-polo-striped",
+        "kids-shirt-brown",
+        "kids-tee-striped"
+      ],
+      "materials": [],
+      "hotspots": [
+        {
+          "id": "waistband",
+          "x": 50,
+          "y": 8,
+          "view": "front",
+          "image_role": "detail_1",
+          "label": {
+            "eg": "الوسط",
+            "sa": "الخصر",
+            "en": "Waistband",
+            "fr": "Ceinture",
+            "es": "Cinturilla"
+          }
+        }
+      ],
+      "i18n": {
+        "sa": {
+          "name": "تشينو أطفال كحلي"
+        },
+        "en": {
+          "name": "Kids’ navy chinos"
+        },
+        "fr": {
+          "name": "Chino enfant marine"
+        },
+        "es": {
+          "name": "Chino infantil azul marino"
+        }
+      },
+      "images": {
+        "front": "kids-chino-navy-front.png",
+        "back": "kids-chino-navy-back.png",
+        "detail_1": "kids-chino-navy-waistband.jpg"
+      }
+    }
+  ],
+  "looks": [
+    {
+      "slug": "camel-everyday",
+      "title": "الجملي، كل يوم",
+      "excerpt": "معطف جملي مفتوح فوق تريكو فاتح وبنطلون فحمي.",
+      "audience": "men",
+      "occasion": "everyday",
+      "palette": "earth",
+      "products": [
+        "coat-camel",
+        "knit-cream",
+        "trouser-charcoal"
+      ],
+      "order": 1,
+      "image": "look-01-main.jpg",
+      "detail_image": "look-01-detail.jpg",
+      "i18n": {
+        "sa": {
+          "title": "الجملي لكل يوم",
+          "excerpt": "معطف جملي مفتوح فوق تريكو فاتح وبنطال فحمي."
+        },
+        "en": {
+          "title": "Camel, every day",
+          "excerpt": "An open camel coat over a light knit and charcoal trousers."
+        },
+        "fr": {
+          "title": "Camel, au quotidien",
+          "excerpt": "Un manteau camel ouvert sur une maille claire et un pantalon anthracite."
+        },
+        "es": {
+          "title": "Camel, cada día",
+          "excerpt": "Un abrigo camel abierto sobre un punto claro y un pantalón gris carbón."
+        }
+      }
+    },
+    {
+      "slug": "light-layers",
+      "title": "طبقات خفيفة",
+      "excerpt": "أوفرشيرت مفتوح فوق قميص مقلّم وتشينو بلون الحجر.",
+      "audience": "men",
+      "occasion": "everyday",
+      "palette": "light",
+      "products": [
+        "overshirt",
+        "shirt-striped",
+        "trouser-stone"
+      ],
+      "order": 2,
+      "image": "look-02-main.jpg",
+      "detail_image": "look-02-detail.jpg",
+      "i18n": {
+        "sa": {
+          "title": "طبقات خفيفة",
+          "excerpt": "أوفرشيرت مفتوح فوق قميص مقلّم وتشينو بلون الحجر."
+        },
+        "en": {
+          "title": "Light layers",
+          "excerpt": "An open overshirt over a striped shirt and stone chinos."
+        },
+        "fr": {
+          "title": "Couches légères",
+          "excerpt": "Une surchemise ouverte sur une chemise rayée et un chino pierre."
+        },
+        "es": {
+          "title": "Capas ligeras",
+          "excerpt": "Una sobrecamisa abierta sobre una camisa de rayas y un chino color piedra."
+        }
+      }
+    },
+    {
+      "slug": "little-explorer",
+      "title": "مغامر صغير",
+      "excerpt": "سويتشيرت مخطط وتشينو كحلي ليوم في الهوا.",
+      "audience": "kids",
+      "occasion": "everyday",
+      "palette": "light",
+      "products": [
+        "kids-sweatshirt-striped",
+        "kids-chino-navy"
+      ],
+      "order": 3,
+      "image": "look-03-main.jpg",
+      "detail_image": "look-03-detail.jpg",
+      "i18n": {
+        "sa": {
+          "title": "مستكشف صغير",
+          "excerpt": "سويتشيرت مخطط وتشينو كحلي ليوم في الخارج."
+        },
+        "en": {
+          "title": "Little explorer",
+          "excerpt": "A striped sweatshirt and navy chinos for a day outdoors."
+        },
+        "fr": {
+          "title": "Petit explorateur",
+          "excerpt": "Un sweat rayé et un chino marine pour une journée dehors."
+        },
+        "es": {
+          "title": "Pequeño explorador",
+          "excerpt": "Una sudadera de rayas y un chino azul marino para un día al aire libre."
+        }
+      }
+    },
+    {
+      "slug": "evening-city",
+      "title": "مساء المدينة",
+      "excerpt": "بدلة فحمية تحت معطف أسود طويل.",
+      "audience": "men",
+      "occasion": "evening",
+      "palette": "mono",
+      "products": [
+        "suit-charcoal",
+        "coat-black"
+      ],
+      "order": 4,
+      "image": "look-04-main.jpg",
+      "detail_image": "look-04-detail.jpg",
+      "i18n": {
+        "sa": {
+          "title": "مساء المدينة",
+          "excerpt": "بدلة فحمية تحت معطف أسود طويل."
+        },
+        "en": {
+          "title": "City evening",
+          "excerpt": "A charcoal suit under a long black coat."
+        },
+        "fr": {
+          "title": "Soir en ville",
+          "excerpt": "Un costume anthracite sous un long manteau noir."
+        },
+        "es": {
+          "title": "Noche en la ciudad",
+          "excerpt": "Un traje gris carbón bajo un abrigo negro largo."
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "key": "camel-coat-surface",
+      "slug": "camel-coat-surface",
+      "title": "سطح المعطف الجملي",
+      "story": "سطح كثيف المظهر وخياطة حافة دقيقة. الصورة للتوضيح البصري، وتركيب الخامة والعناية بيظهروا هنا بعد تأكيدهم من بطاقة المورّد.",
+      "products": [
+        "coat-camel"
+      ],
+      "order": 1,
+      "image": "material-camel-coat.jpg",
+      "i18n": {
+        "sa": {
+          "title": "سطح المعطف الجملي",
+          "story": "سطح كثيف المظهر وخياطة حافة دقيقة. الصورة للتوضيح البصري، ويظهر تركيب الخامة والعناية هنا بعد تأكيدهما من بطاقة المورّد."
+        },
+        "en": {
+          "title": "Camel coat surface",
+          "story": "A dense-looking surface with fine edge stitching. The image is a visual guide. Composition and care appear here once confirmed from the supplier label."
+        },
+        "fr": {
+          "title": "Surface du manteau camel",
+          "story": "Une surface d’aspect dense, avec une fine surpiqûre en bordure. L’image sert de repère visuel. La composition et l’entretien apparaîtront ici une fois confirmés par l’étiquette du fournisseur."
+        },
+        "es": {
+          "title": "Superficie del abrigo camel",
+          "story": "Una superficie de aspecto denso con un pespunte fino en el borde. La imagen es una guía visual. La composición y el cuidado aparecerán aquí cuando se confirmen con la etiqueta del proveedor."
+        }
+      }
+    },
+    {
+      "key": "rib-knit",
+      "slug": "rib-knit",
+      "title": "تريكو مضلّع",
+      "story": "خطوط تريكو عمودية واضحة عند الياقة والأساور والحافة. الصورة للتوضيح البصري، وتركيب الخامة والعناية بيظهروا هنا بعد تأكيدهم من بطاقة المورّد.",
+      "products": [
+        "knit-cream"
+      ],
+      "order": 2,
+      "image": "material-rib-knit.jpg",
+      "i18n": {
+        "sa": {
+          "title": "تريكو مضلّع",
+          "story": "خطوط تريكو عمودية واضحة عند الياقة والأساور والحافة. الصورة للتوضيح البصري، ويظهر تركيب الخامة والعناية هنا بعد تأكيدهما من بطاقة المورّد."
+        },
+        "en": {
+          "title": "Rib knit",
+          "story": "Clear vertical ribs at the collar, cuffs and hem. The image is a visual guide. Composition and care appear here once confirmed from the supplier label."
+        },
+        "fr": {
+          "title": "Maille côtelée",
+          "story": "Des côtes verticales nettes au col, aux poignets et à l’ourlet. L’image sert de repère visuel. La composition et l’entretien apparaîtront ici une fois confirmés par l’étiquette du fournisseur."
+        },
+        "es": {
+          "title": "Punto acanalado",
+          "story": "Canalé vertical marcado en el cuello, los puños y el bajo. La imagen es una guía visual. La composición y el cuidado aparecerán aquí cuando se confirmen con la etiqueta del proveedor."
+        }
+      }
+    },
+    {
+      "key": "suiting",
+      "slug": "suiting",
+      "title": "نسيج البدلة",
+      "story": "نسيج مائل دقيق بلون فحمي. الصورة للتوضيح البصري، وتركيب الخامة والعناية بيظهروا هنا بعد تأكيدهم من بطاقة المورّد.",
+      "products": [
+        "suit-charcoal"
+      ],
+      "order": 3,
+      "image": "material-suiting.jpg",
+      "i18n": {
+        "sa": {
+          "title": "نسيج البدلة",
+          "story": "نسيج مائل دقيق بلون فحمي. الصورة للتوضيح البصري، ويظهر تركيب الخامة والعناية هنا بعد تأكيدهما من بطاقة المورّد."
+        },
+        "en": {
+          "title": "Suiting weave",
+          "story": "A fine diagonal weave in charcoal. The image is a visual guide. Composition and care appear here once confirmed from the supplier label."
+        },
+        "fr": {
+          "title": "Tissage du costume",
+          "story": "Un fin tissage diagonal anthracite. L’image sert de repère visuel. La composition et l’entretien apparaîtront ici une fois confirmés par l’étiquette du fournisseur."
+        },
+        "es": {
+          "title": "Tejido del traje",
+          "story": "Un tejido diagonal fino en gris carbón. La imagen es una guía visual. La composición y el cuidado aparecerán aquí cuando se confirmen con la etiqueta del proveedor."
+        }
+      }
+    },
+    {
+      "key": "striped-shirting",
+      "slug": "striped-shirting",
+      "title": "قماش القميص المقلّم",
+      "story": "خطوط رفيعة متساوية بتتقابل عند الياقة والأساور. الصورة للتوضيح البصري، وتركيب الخامة والعناية بيظهروا هنا بعد تأكيدهم من بطاقة المورّد.",
+      "products": [
+        "shirt-striped"
+      ],
+      "order": 4,
+      "image": "material-striped-shirting.jpg",
+      "i18n": {
+        "sa": {
+          "title": "قماش القميص المقلّم",
+          "story": "خطوط رفيعة متساوية تتطابق عند الياقة والأساور. الصورة للتوضيح البصري، ويظهر تركيب الخامة والعناية هنا بعد تأكيدهما من بطاقة المورّد."
+        },
+        "en": {
+          "title": "Striped shirting",
+          "story": "Fine, even stripes that line up at the collar and cuffs. The image is a visual guide. Composition and care appear here once confirmed from the supplier label."
+        },
+        "fr": {
+          "title": "Toile de chemise rayée",
+          "story": "De fines rayures régulières qui se rejoignent au col et aux poignets. L’image sert de repère visuel. La composition et l’entretien apparaîtront ici une fois confirmés par l’étiquette du fournisseur."
+        },
+        "es": {
+          "title": "Tejido de camisa de rayas",
+          "story": "Rayas finas y regulares que coinciden en el cuello y los puños. La imagen es una guía visual. La composición y el cuidado aparecerán aquí cuando se confirmen con la etiqueta del proveedor."
+        }
+      }
+    },
+    {
+      "key": "kids-jersey",
+      "slug": "kids-jersey",
+      "title": "جيرسي الأطفال المقلّم",
+      "story": "خطوط عريضة متساوية مع حواف مضلّعة. الصورة للتوضيح البصري، وتركيب الخامة والعناية بيظهروا هنا بعد تأكيدهم من بطاقة المورّد.",
+      "products": [
+        "kids-sweatshirt-striped"
+      ],
+      "order": 5,
+      "image": "material-kids-jersey.jpg",
+      "i18n": {
+        "sa": {
+          "title": "جيرسي الأطفال المقلّم",
+          "story": "خطوط عريضة متساوية مع حواف مضلّعة. الصورة للتوضيح البصري، ويظهر تركيب الخامة والعناية هنا بعد تأكيدهما من بطاقة المورّد."
+        },
+        "en": {
+          "title": "Kids’ striped jersey",
+          "story": "Broad, even stripes with ribbed edges. The image is a visual guide. Composition and care appear here once confirmed from the supplier label."
+        },
+        "fr": {
+          "title": "Jersey rayé enfant",
+          "story": "De larges rayures régulières et des bords côtelés. L’image sert de repère visuel. La composition et l’entretien apparaîtront ici une fois confirmés par l’étiquette du fournisseur."
+        },
+        "es": {
+          "title": "Punto rayado infantil",
+          "story": "Rayas anchas y regulares con bordes acanalados. La imagen es una guía visual. La composición y el cuidado aparecerán aquí cuando se confirmen con la etiqueta del proveedor."
+        }
+      }
+    }
+  ],
+  "demo_skus": [
+    "TEST-JNS-450",
+    "TEST-TSHIRT-VAR",
+    "TEST-HDY-650",
+    "TEST-BRC-VAR",
+    "TEST-WLT-200",
+    "TEST-SNG-350"
+  ]
+}

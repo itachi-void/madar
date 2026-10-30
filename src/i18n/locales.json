@@ -1,0 +1,7 @@
+[
+  { "code": "eg", "prefix": "", "lang": "ar-EG", "direction": "rtl", "label": "مصر · العربية" },
+  { "code": "sa", "prefix": "/sa", "lang": "ar-SA", "direction": "rtl", "label": "السعودية · العربية" },
+  { "code": "en", "prefix": "/en", "lang": "en", "direction": "ltr", "label": "English" },
+  { "code": "fr", "prefix": "/fr", "lang": "fr", "direction": "ltr", "label": "Français" },
+  { "code": "es", "prefix": "/es", "lang": "es", "direction": "ltr", "label": "Español" }
+]

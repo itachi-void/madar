@@ -1,0 +1,875 @@
+{
+  "purpose": "Reference research and feasibility only; application UI not modified.",
+  "preparedAtUtc": "2026-10-24T22:48:41.400857+00:00",
+  "verification": {
+    "references": 50,
+    "globalBrands": 25,
+    "additionalProductExperienceSites": 25,
+    "http200": 23,
+    "httpLimitedOrFailed": 27,
+    "initialBrowserSamples": 11,
+    "browserSample200": 10,
+    "caveat": "HTTP 200 is not a complete visual or interaction audit. WAF/country/cookie restrictions were not bypassed. See per-site notes."
+  },
+  "references": [
+    {
+      "id": 1,
+      "group": "global-brand",
+      "name": "ZARA",
+      "url": "https://www.zara.com/",
+      "studyFocus": "إيقاع الحملات والصور الكبيرة والانتقال بين الإطلالات",
+      "potentialMadarUse": "تقديم مجموعة الموسم، لا تقليد صعوبة الملاحة",
+      "httpProbe": {
+        "status": 200,
+        "finalUrl": "https://www.zara.com/",
+        "title": " ",
+        "capped": false
+      },
+      "browserSamples": [],
+      "verificationNote": "HTTP entry is JS-driven/has no meaningful title; not a complete storefront review."
+    },
+    {
+      "id": 2,
+      "group": "global-brand",
+      "name": "Massimo Dutti",
+      "url": "https://www.massimodutti.com/",
+      "studyFocus": "الهدوء الرجالي، الفراغات، التصوير والخامات",
+      "potentialMadarUse": "مرجع أساسي للهوية الحالية",
+      "httpProbe": {
+        "status": 200,
+        "finalUrl": "https://www.massimodutti.com/",
+        "title": " ",
+        "capped": false
+      },
+      "browserSamples": [],
+      "verificationNote": "HTTP entry is JS-driven/has no meaningful title; not a complete storefront review."
+    },
+    {
+      "id": 3,
+      "group": "global-brand",
+      "name": "COS",
+      "url": "https://www.cos.com/",
+      "studyFocus": "الشبكة النظيفة والتايبوجرافي ونِسب الصور",
+      "potentialMadarUse": "تهذيب شبكة المتجر والبطاقات",
+      "httpProbe": {
+        "status": 403,
+        "finalUrl": "https://www.cos.com/",
+        "error": "HTTP response; no access-control bypass attempted"
+      },
+      "browserSamples": [],
+      "verificationNote": "Automated HTTP access was limited; study focus is a recommendation, not a tested feature claim."
+    },
+    {
+      "id": 4,
+      "group": "global-brand",
+      "name": "ARKET",
+      "url": "https://www.arket.com/",
+      "studyFocus": "تنظيم الأساسيات والأقسام ومعلومات القطعة",
+      "potentialMadarUse": "تسهيل الاكتشاف بدل ازدحام الصفحة",
+      "httpProbe": {
+        "status": 403,
+        "finalUrl": "https://www.arket.com/",
+        "error": "HTTP response; no access-control bypass attempted"
+      },
+      "browserSamples": [],
+      "verificationNote": "Automated HTTP access was limited; study focus is a recommendation, not a tested feature claim."
+    },
+    {
+      "id": 5,
+      "group": "global-brand",
+      "name": "UNIQLO",
+      "url": "https://www.uniqlo.com/",
+      "studyFocus": "شرح الاستخدام والقصّة وتبسيط اختيار المقاس",
+      "potentialMadarUse": "معلومات عملية قبل الإضافة للسلة",
+      "httpProbe": {
+        "status": 200,
+        "finalUrl": "https://www.uniqlo.com/uk/en/",
+        "title": "Women's, Men's & Children's Clothing | LifeWear | UNIQLO UK",
+        "capped": true
+      },
+      "browserSamples": [],
+      "verificationNote": "HTTP response checked; study focus is not a claim that every feature was tested."
+    },
+    {
+      "id": 6,
+      "group": "global-brand",
+      "name": "H&M",
+      "url": "https://www2.hm.com/",
+      "studyFocus": "التنقل داخل كتالوج واسع وفلاتر الاختيار",
+      "potentialMadarUse": "فلاتر واضحة للموبايل",
+      "httpProbe": {
+        "status": 403,
+        "finalUrl": "https://www2.hm.com/",
+        "error": "HTTP response; no access-control bypass attempted"
+      },
+      "browserSamples": [],
+      "verificationNote": "Automated HTTP access was limited; study focus is a recommendation, not a tested feature claim."
+    },
+    {
+      "id": 7,
+      "group": "global-brand",
+      "name": "Mango",
+      "url": "https://shop.mango.com/",
+      "studyFocus": "ربط القطعة بإطلالة كاملة",
+      "potentialMadarUse": "«كمّل الإطلالة»",
+      "httpProbe": {
+        "status": 429,
+        "finalUrl": "https://shop.mango.com/",
+        "error": "HTTP response; no access-control bypass attempted"
+      },
+      "browserSamples": [],
+      "verificationNote": "Automated HTTP access was limited; study focus is a recommendation, not a tested feature claim."
+    },
+    {
+      "id": 8,
+      "group": "global-brand",
+      "name": "Ralph Lauren",
+      "url": "https://www.ralphlauren.com/",
+      "studyFocus": "قصص نمط الحياة وعوالم الرجال والأطفال",
+      "potentialMadarUse": "فصل عالمين تحت هوية واحدة",
+      "httpProbe": {
+        "status": 307,
+        "finalUrl": "https://www.ralphlauren.com/",
+        "error": "HTTP response; no access-control bypass attempted"
+      },
+      "browserSamples": [],
+      "verificationNote": "Automated HTTP access was limited; study focus is a recommendation, not a tested feature claim."
+    },
+    {
+      "id": 9,
+      "group": "global-brand",
+      "name": "Lacoste",
+      "url": "https://www.lacoste.com/",
+      "studyFocus": "التعامل مع اللون والقطع المميزة للبراند",
+      "potentialMadarUse": "مجموعات لونية سهلة الاستكشاف",
+      "httpProbe": {
+        "status": 403,
+        "finalUrl": "https://www.lacoste.com/",
+        "error": "HTTP response; no access-control bypass attempted"
+      },
+      "browserSamples": [],
+      "verificationNote": "Automated HTTP access was limited; study focus is a recommendation, not a tested feature claim."
+    },
+    {
+      "id": 10,
+      "group": "global-brand",
+      "name": "Tommy Hilfiger",
+      "url": "https://global.tommy.com/",
+      "studyFocus": "هيكلة مجموعات الرجال والأطفال والحملات",
+      "potentialMadarUse": "رحلة عائلية دون خلط المقاسات",
+      "httpProbe": {
+        "status": 403,
+        "finalUrl": "https://usa.tommy.com/en",
+        "error": "HTTP response; no access-control bypass attempted"
+      },
+      "browserSamples": [],
+      "verificationNote": "Automated HTTP access was limited; study focus is a recommendation, not a tested feature claim."
+    },
+    {
+      "id": 11,
+      "group": "global-brand",
+      "name": "Calvin Klein",
+      "url": "https://www.calvinklein.com/",
+      "studyFocus": "صور المنتج والنظافة البصرية والتباين",
+      "potentialMadarUse": "إبراز القطعة قبل الزخرفة",
+      "httpProbe": {
+        "status": null,
+        "error": "The read operation timed out"
+      },
+      "browserSamples": [],
+      "verificationNote": "Automated HTTP access was limited; study focus is a recommendation, not a tested feature claim."
+    },
+    {
+      "id": 12,
+      "group": "global-brand",
+      "name": "Hugo Boss",
+      "url": "https://www.hugoboss.com/",
+      "studyFocus": "تقديم الملابس الرسمية والقصّات والمناسبات",
+      "potentialMadarUse": "شرح القصّة وربطها بالسياق",
+      "httpProbe": {
+        "status": 200,
+        "finalUrl": "https://www.hugoboss.com/us/home",
+        "title": "HUGO BOSS Official Online Shop | Menswear & Womenswear",
+        "capped": false
+      },
+      "browserSamples": [],
+      "verificationNote": "HTTP response checked; study focus is not a claim that every feature was tested."
+    },
+    {
+      "id": 13,
+      "group": "global-brand",
+      "name": "Burberry",
+      "url": "https://www.burberry.com/",
+      "studyFocus": "تفاصيل النقش والتصوير القريب والسرد",
+      "potentialMadarUse": "نقاط تشرح تفاصيل القطعة",
+      "httpProbe": {
+        "status": 200,
+        "finalUrl": "https://www.burberry.com/",
+        "title": "",
+        "capped": false
+      },
+      "browserSamples": [],
+      "verificationNote": "HTTP entry is JS-driven/has no meaningful title; not a complete storefront review."
+    },
+    {
+      "id": 14,
+      "group": "global-brand",
+      "name": "Louis Vuitton",
+      "url": "https://www.louisvuitton.com/",
+      "studyFocus": "الفصل بين عالم الحملة ومعلومات المنتج",
+      "potentialMadarUse": "حملة تعبيرية وشراء واضح",
+      "httpProbe": {
+        "status": 403,
+        "finalUrl": "https://www.louisvuitton.com/",
+        "error": "HTTP response; no access-control bypass attempted"
+      },
+      "browserSamples": [],
+      "verificationNote": "Automated HTTP access was limited; study focus is a recommendation, not a tested feature claim."
+    },
+    {
+      "id": 15,
+      "group": "global-brand",
+      "name": "Gucci",
+      "url": "https://www.gucci.com/",
+      "studyFocus": "الإخراج الفني والهوية التجريبية",
+      "potentialMadarUse": "مشهد حملة واحد، لا متجر مشتت",
+      "httpProbe": {
+        "status": 520,
+        "finalUrl": "https://www.gucci.com/",
+        "error": "HTTP response; no access-control bypass attempted"
+      },
+      "browserSamples": [],
+      "verificationNote": "Automated HTTP access was limited; study focus is a recommendation, not a tested feature claim."
+    },
+    {
+      "id": 16,
+      "group": "global-brand",
+      "name": "Dior",
+      "url": "https://www.dior.com/",
+      "studyFocus": "الحِرفة والتفاصيل واللقطات القريبة",
+      "potentialMadarUse": "شرح الخامة والتشطيب بمواد موثقة",
+      "httpProbe": {
+        "status": 403,
+        "finalUrl": "https://www.dior.com/",
+        "error": "HTTP response; no access-control bypass attempted"
+      },
+      "browserSamples": [],
+      "verificationNote": "Automated HTTP access was limited; study focus is a recommendation, not a tested feature claim."
+    },
+    {
+      "id": 17,
+      "group": "global-brand",
+      "name": "Prada",
+      "url": "https://www.prada.com/",
+      "studyFocus": "تكوين الصورة والتباين بين البساطة والحملة",
+      "potentialMadarUse": "توازن الصورة والنص",
+      "httpProbe": {
+        "status": 200,
+        "finalUrl": "https://www.prada.com/gb/en.html",
+        "title": "PRADA United Kingdom Official Website and Online Store | PRADA - United Kingdom",
+        "capped": false
+      },
+      "browserSamples": [],
+      "verificationNote": "HTTP response checked; study focus is not a claim that every feature was tested."
+    },
+    {
+      "id": 18,
+      "group": "global-brand",
+      "name": "Loro Piana",
+      "url": "https://www.loropiana.com/",
+      "studyFocus": "الإحساس بالخامة والألوان الهادئة",
+      "potentialMadarUse": "اتجاه قريب للمعاطف والتريكو",
+      "httpProbe": {
+        "status": 403,
+        "finalUrl": "https://www.loropiana.com/",
+        "error": "HTTP response; no access-control bypass attempted"
+      },
+      "browserSamples": [],
+      "verificationNote": "Automated HTTP access was limited; study focus is a recommendation, not a tested feature claim."
+    },
+    {
+      "id": 19,
+      "group": "global-brand",
+      "name": "Brunello Cucinelli",
+      "url": "https://www.brunellocucinelli.com/",
+      "studyFocus": "الألوان الدافئة والسرد الهادئ",
+      "potentialMadarUse": "الجانب التحريري لمدار",
+      "httpProbe": {
+        "status": 200,
+        "finalUrl": "https://www.brunellocucinelli.com/en/",
+        "title": "Brunello Cucinelli | Philosophy, Online Boutique & Investor Relations",
+        "capped": false
+      },
+      "browserSamples": [],
+      "verificationNote": "HTTP response checked; study focus is not a claim that every feature was tested."
+    },
+    {
+      "id": 20,
+      "group": "global-brand",
+      "name": "Zegna",
+      "url": "https://www.zegna.com/",
+      "studyFocus": "تقديم التفصيل والخامة والملابس الرجالية",
+      "potentialMadarUse": "معلومات أدق للبدل والمعاطف",
+      "httpProbe": {
+        "status": 403,
+        "finalUrl": "https://www.zegna.com/",
+        "error": "HTTP response; no access-control bypass attempted"
+      },
+      "browserSamples": [],
+      "verificationNote": "Automated HTTP access was limited; study focus is a recommendation, not a tested feature claim."
+    },
+    {
+      "id": 21,
+      "group": "global-brand",
+      "name": "Stone Island",
+      "url": "https://www.stoneisland.com/",
+      "studyFocus": "شرح البناء والتفاصيل التقنية",
+      "potentialMadarUse": "بطاقات خصائص، دون اختراع مواصفات",
+      "httpProbe": {
+        "status": 403,
+        "finalUrl": "https://www.stoneisland.com/",
+        "error": "HTTP response; no access-control bypass attempted"
+      },
+      "browserSamples": [],
+      "verificationNote": "Automated HTTP access was limited; study focus is a recommendation, not a tested feature claim."
+    },
+    {
+      "id": 22,
+      "group": "global-brand",
+      "name": "Moncler",
+      "url": "https://www.moncler.com/",
+      "studyFocus": "الطبقات والملابس الخارجية",
+      "potentialMadarUse": "عرض فكرة التنسيق بالطبقات",
+      "httpProbe": {
+        "status": 403,
+        "finalUrl": "https://www.moncler.com/",
+        "error": "HTTP response; no access-control bypass attempted"
+      },
+      "browserSamples": [],
+      "verificationNote": "Automated HTTP access was limited; study focus is a recommendation, not a tested feature claim."
+    },
+    {
+      "id": 23,
+      "group": "global-brand",
+      "name": "Nike",
+      "url": "https://www.nike.com/",
+      "studyFocus": "ربط الحركة بالاستخدام وتقديم المنتج أثناء النشاط",
+      "potentialMadarUse": "فيديو ارتداء حقيقي لاحقًا",
+      "httpProbe": {
+        "status": 200,
+        "finalUrl": "https://www.nike.com/gb/",
+        "title": "Nike. Just Do It. Nike UK",
+        "capped": false
+      },
+      "browserSamples": [],
+      "verificationNote": "HTTP response checked; study focus is not a claim that every feature was tested."
+    },
+    {
+      "id": 24,
+      "group": "global-brand",
+      "name": "Adidas",
+      "url": "https://www.adidas.com/",
+      "studyFocus": "تقديم اختلافات المنتج والخيارات بصريًا",
+      "potentialMadarUse": "وضوح اللون والمقاس والحالة",
+      "httpProbe": {
+        "status": null,
+        "error": "The read operation timed out"
+      },
+      "browserSamples": [],
+      "verificationNote": "Automated HTTP access was limited; study focus is a recommendation, not a tested feature claim."
+    },
+    {
+      "id": 25,
+      "group": "global-brand",
+      "name": "Patagonia",
+      "url": "https://www.patagonia.com/",
+      "studyFocus": "الاستخدام والعناية والشفافية حول القطعة",
+      "potentialMadarUse": "قسم عناية ومعلومات موثقة",
+      "httpProbe": {
+        "status": 200,
+        "finalUrl": "https://www.patagonia.com/",
+        "title": "Hang Tight! Routing to checkout...",
+        "capped": false
+      },
+      "browserSamples": [],
+      "verificationNote": "HTTP 200 returned an intermediate routing/gate page; not proof of storefront access."
+    },
+    {
+      "id": 26,
+      "group": "product-experience",
+      "name": "AETHER Apparel",
+      "url": "https://aetherapparel.com/",
+      "studyFocus": "صور القطعة، اللون والمقاس، بيانات الموديل، التفاصيل والإطلالة",
+      "potentialMadarUse": "أقرب مرجع وظيفي لصفحة منتج الملابس",
+      "httpProbe": {
+        "status": 200,
+        "finalUrl": "https://aetherapparel.com/",
+        "title": "AETHER Apparel – For The Restless",
+        "capped": false
+      },
+      "browserSamples": [
+        {
+          "url": "https://aetherapparel.com/products/milton-chore-jacket-forest-green",
+          "status": 200,
+          "title": "Milton Chore Jacket - Forest Green",
+          "limited": false,
+          "error": null
+        }
+      ],
+      "verificationNote": "Product layout, colour/size controls and model information observed. Clicking size entry did not establish a complete sizing flow because a cookie layer appeared."
+    },
+    {
+      "id": 27,
+      "group": "product-experience",
+      "name": "Pangaia",
+      "url": "https://pangaia.com/",
+      "studyFocus": "العائلات اللونية وعلاقة اللون بالمجموعة",
+      "potentialMadarUse": "اختيار اللون وربطه بقطع مكملة",
+      "httpProbe": {
+        "status": 429,
+        "finalUrl": "https://pangaia.com/",
+        "error": "HTTP response; no access-control bypass attempted"
+      },
+      "browserSamples": [],
+      "verificationNote": "Automated HTTP access was limited; study focus is a recommendation, not a tested feature claim."
+    },
+    {
+      "id": 28,
+      "group": "product-experience",
+      "name": "Asket",
+      "url": "https://www.asket.com/",
+      "studyFocus": "التحرير الهادئ، وضوح القطعة، ومحتوى المقاس والقياس",
+      "potentialMadarUse": "قرار شراء أهدأ وأوضح",
+      "httpProbe": {
+        "status": 200,
+        "finalUrl": "https://www.asket.com/en-us",
+        "title": "Asket | Permanent designs, obsessively refined",
+        "capped": false
+      },
+      "browserSamples": [
+        {
+          "url": "https://www.asket.com/en-us",
+          "status": 200,
+          "title": "Asket | Permanent designs, obsessively refined",
+          "limited": false,
+          "error": null
+        }
+      ],
+      "verificationNote": "HTTP response checked; study focus is not a claim that every feature was tested."
+    },
+    {
+      "id": 29,
+      "group": "product-experience",
+      "name": "Colorful Standard",
+      "url": "https://colorfulstandard.com/",
+      "studyFocus": "اللون كوسيلة رئيسية للاكتشاف",
+      "potentialMadarUse": "لوحة ألوان بدل أسماء مبهمة",
+      "httpProbe": {
+        "status": 429,
+        "finalUrl": "https://colorfulstandard.com/",
+        "error": "HTTP response; no access-control bypass attempted"
+      },
+      "browserSamples": [],
+      "verificationNote": "Automated HTTP access was limited; study focus is a recommendation, not a tested feature claim."
+    },
+    {
+      "id": 30,
+      "group": "product-experience",
+      "name": "Rains",
+      "url": "https://www.rains.com/",
+      "studyFocus": "تقديم الملابس الخارجية بتكوين بصري نظيف",
+      "potentialMadarUse": "إبراز شكل المعطف وتفاصيله",
+      "httpProbe": {
+        "status": 429,
+        "finalUrl": "https://www.rains.com/",
+        "error": "HTTP response; no access-control bypass attempted"
+      },
+      "browserSamples": [],
+      "verificationNote": "Automated HTTP access was limited; study focus is a recommendation, not a tested feature claim."
+    },
+    {
+      "id": 31,
+      "group": "product-experience",
+      "name": "Finisterre",
+      "url": "https://finisterre.com/",
+      "studyFocus": "القطعة داخل سياق استخدامها والعناية بها",
+      "potentialMadarUse": "قصة يوم/استخدام واقعية",
+      "httpProbe": {
+        "status": 429,
+        "finalUrl": "https://finisterre.com/",
+        "error": "HTTP response; no access-control bypass attempted"
+      },
+      "browserSamples": [],
+      "verificationNote": "Automated HTTP access was limited; study focus is a recommendation, not a tested feature claim."
+    },
+    {
+      "id": 32,
+      "group": "product-experience",
+      "name": "Vollebak",
+      "url": "https://vollebak.com/",
+      "studyFocus": "تحويل تفاصيل الخامة إلى قصة منتج",
+      "potentialMadarUse": "مشهد يشرح الخامة، ببيانات حقيقية",
+      "httpProbe": {
+        "status": 429,
+        "finalUrl": "https://vollebak.com/",
+        "error": "HTTP response; no access-control bypass attempted"
+      },
+      "browserSamples": [],
+      "verificationNote": "Automated HTTP access was limited; study focus is a recommendation, not a tested feature claim."
+    },
+    {
+      "id": 33,
+      "group": "product-experience",
+      "name": "Satisfy",
+      "url": "https://satisfyrunning.com/",
+      "studyFocus": "مزج الموضة والحركة والاستخدام",
+      "potentialMadarUse": "انتقال بين لقطة الاستوديو والارتداء",
+      "httpProbe": {
+        "status": 429,
+        "finalUrl": "https://satisfyrunning.com/",
+        "error": "HTTP response; no access-control bypass attempted"
+      },
+      "browserSamples": [],
+      "verificationNote": "Automated HTTP access was limited; study focus is a recommendation, not a tested feature claim."
+    },
+    {
+      "id": 34,
+      "group": "product-experience",
+      "name": "Norda",
+      "url": "https://nordarun.com/",
+      "studyFocus": "فصل المنتج إلى تفاصيل وطبقات شرح",
+      "potentialMadarUse": "تفصيل أجزاء القطعة بصريًا",
+      "httpProbe": {
+        "status": 429,
+        "finalUrl": "https://nordarun.com/",
+        "error": "HTTP response; no access-control bypass attempted"
+      },
+      "browserSamples": [],
+      "verificationNote": "Automated HTTP access was limited; study focus is a recommendation, not a tested feature claim."
+    },
+    {
+      "id": 35,
+      "group": "product-experience",
+      "name": "On",
+      "url": "https://www.on.com/",
+      "studyFocus": "جمع الحركة والتصوير ووضوح الوظيفة",
+      "potentialMadarUse": "عناوين قصيرة وشرح عملي",
+      "httpProbe": {
+        "status": 200,
+        "finalUrl": "https://www.on.com/en-us/",
+        "title": "On | Swiss Performance Running Shoes & Clothing",
+        "capped": false
+      },
+      "browserSamples": [
+        {
+          "url": "https://www.on.com/en-us/",
+          "status": 200,
+          "title": "On | Swiss Performance Running Shoes & Clothing",
+          "limited": false,
+          "error": null
+        }
+      ],
+      "verificationNote": "HTTP response checked; study focus is not a claim that every feature was tested."
+    },
+    {
+      "id": 36,
+      "group": "product-experience",
+      "name": "Allbirds",
+      "url": "https://www.allbirds.com/",
+      "studyFocus": "تبسيط الفوائد والألوان ومعلومات المادة",
+      "potentialMadarUse": "تقديم المعلومة دون إغراق",
+      "httpProbe": {
+        "status": 429,
+        "finalUrl": "https://www.allbirds.com/",
+        "error": "HTTP response; no access-control bypass attempted"
+      },
+      "browserSamples": [],
+      "verificationNote": "Automated HTTP access was limited; study focus is a recommendation, not a tested feature claim."
+    },
+    {
+      "id": 37,
+      "group": "product-experience",
+      "name": "Gentle Monster",
+      "url": "https://www.gentlemonster.com/",
+      "studyFocus": "عالم الحملة والإخراج غير التقليدي",
+      "potentialMadarUse": "تأثير مميز واحد في حملة الموسم",
+      "httpProbe": {
+        "status": 200,
+        "finalUrl": "https://www.gentlemonster.com/us/en",
+        "title": "Home | Gentle Monster US Official Site",
+        "capped": false
+      },
+      "browserSamples": [
+        {
+          "url": "https://www.gentlemonster.com/us/en/item/0PEEZ0A8AASR8/velom01",
+          "status": 403,
+          "title": null,
+          "limited": true,
+          "error": null
+        }
+      ],
+      "verificationNote": "Homepage HTTP probe returned 200, but the selected product page returned 403. No access-control bypass attempted."
+    },
+    {
+      "id": 38,
+      "group": "product-experience",
+      "name": "Cubitts",
+      "url": "https://cubitts.com/",
+      "studyFocus": "مقارنة الشكل واللون والملاءمة",
+      "potentialMadarUse": "مقارنة اختلافين على مساحة واحدة",
+      "httpProbe": {
+        "status": 429,
+        "finalUrl": "https://cubitts.com/",
+        "error": "HTTP response; no access-control bypass attempted"
+      },
+      "browserSamples": [],
+      "verificationNote": "Automated HTTP access was limited; study focus is a recommendation, not a tested feature claim."
+    },
+    {
+      "id": 39,
+      "group": "product-experience",
+      "name": "Bellroy",
+      "url": "https://bellroy.com/",
+      "studyFocus": "اللون والخامة وشرح الجيوب والاستخدام",
+      "potentialMadarUse": "«اكتشف تفاصيل القطعة»",
+      "httpProbe": {
+        "status": 200,
+        "finalUrl": "https://bellroy.com/",
+        "title": "Bellroy | Considered Carry Goods: Wallets, Bags, Phone Cases & More",
+        "capped": false
+      },
+      "browserSamples": [
+        {
+          "url": "https://bellroy.com/",
+          "status": 200,
+          "title": "Bellroy | Considered Carry Goods: Wallets, Bags, Phone Cases & More",
+          "limited": false,
+          "error": null
+        }
+      ],
+      "verificationNote": "HTTP response checked; study focus is not a claim that every feature was tested."
+    },
+    {
+      "id": 40,
+      "group": "product-experience",
+      "name": "Peak Design",
+      "url": "https://www.peakdesign.com/",
+      "studyFocus": "الاكتشاف حسب النشاط وفصل عائلات المنتجات",
+      "potentialMadarUse": "تسوّق حسب المناسبة/الاستخدام",
+      "httpProbe": {
+        "status": 200,
+        "finalUrl": "https://www.peakdesign.com/",
+        "title": "Bags + Camera Gear | Peak Design",
+        "capped": false
+      },
+      "browserSamples": [
+        {
+          "url": "https://www.peakdesign.com/",
+          "status": 200,
+          "title": "Bags + Camera Gear | Peak Design",
+          "limited": false,
+          "error": null
+        }
+      ],
+      "verificationNote": "HTTP response checked; study focus is not a claim that every feature was tested."
+    },
+    {
+      "id": 41,
+      "group": "product-experience",
+      "name": "FREITAG",
+      "url": "https://www.freitag.ch/",
+      "studyFocus": "صور القطع المختلفة والمقاسات والمحتوى المادي",
+      "potentialMadarUse": "عدم استخدام صورة واحدة لكل اختلاف",
+      "httpProbe": {
+        "status": 200,
+        "finalUrl": "https://freitag.ch/en_US",
+        "title": "Upcycled bags and accessories | FREITAG",
+        "capped": false
+      },
+      "browserSamples": [
+        {
+          "url": "https://freitag.ch/en_US/products/r204-nan",
+          "status": 200,
+          "title": "R204 NAN | FREITAG",
+          "limited": false,
+          "error": null
+        }
+      ],
+      "verificationNote": "HTTP response checked; study focus is not a claim that every feature was tested."
+    },
+    {
+      "id": 42,
+      "group": "product-experience",
+      "name": "BAGGU",
+      "url": "https://www.baggu.com/",
+      "studyFocus": "النقوش والألوان داخل عائلة المنتج",
+      "potentialMadarUse": "استكشاف النمط مع اللون",
+      "httpProbe": {
+        "status": 200,
+        "finalUrl": "https://baggu.com/",
+        "title": "BAGGU",
+        "capped": false
+      },
+      "browserSamples": [],
+      "verificationNote": "HTTP response checked; study focus is not a claim that every feature was tested."
+    },
+    {
+      "id": 43,
+      "group": "product-experience",
+      "name": "VEJA",
+      "url": "https://www.veja-store.com/",
+      "studyFocus": "عرض المنتج والمعلومات المادية والألوان",
+      "potentialMadarUse": "تفاصيل محددة وصور واضحة",
+      "httpProbe": {
+        "status": 200,
+        "finalUrl": "https://www.veja-store.com/fr_fr/",
+        "title": "VEJA – Site officiel | Sneakers Homme, Femme et Enfant | VEJA",
+        "capped": false
+      },
+      "browserSamples": [],
+      "verificationNote": "HTTP response checked; study focus is not a claim that every feature was tested."
+    },
+    {
+      "id": 44,
+      "group": "product-experience",
+      "name": "Aesop",
+      "url": "https://www.aesop.com/",
+      "studyFocus": "المعلومات المتدرجة والهدوء البصري",
+      "potentialMadarUse": "سرد خامة/عناية خفيف",
+      "httpProbe": {
+        "status": 403,
+        "finalUrl": "https://www.aesop.com/",
+        "error": "HTTP response; no access-control bypass attempted"
+      },
+      "browserSamples": [],
+      "verificationNote": "Automated HTTP access was limited; study focus is a recommendation, not a tested feature claim."
+    },
+    {
+      "id": 45,
+      "group": "product-experience",
+      "name": "Apple",
+      "url": "https://www.apple.com/iphone/",
+      "studyFocus": "فصول العرض والوسائط والمقارنة",
+      "potentialMadarUse": "قصة تمرير لقطعة بطلة واحدة",
+      "httpProbe": {
+        "status": 200,
+        "finalUrl": "https://www.apple.com/",
+        "title": "Apple",
+        "capped": false
+      },
+      "browserSamples": [
+        {
+          "url": "https://www.apple.com/iphone/",
+          "status": 200,
+          "title": "iPhone - Apple",
+          "limited": false,
+          "error": null
+        }
+      ],
+      "verificationNote": "HTTP response checked; study focus is not a claim that every feature was tested."
+    },
+    {
+      "id": 46,
+      "group": "product-experience",
+      "name": "Nothing",
+      "url": "https://nothing.tech/",
+      "studyFocus": "شرح المزايا داخل فصول وهوية واضحة",
+      "potentialMadarUse": "تتابع تفاصيل القطعة، لا تقليد هوية الإلكترونيات",
+      "httpProbe": {
+        "status": 200,
+        "finalUrl": "https://nothing.tech/",
+        "title": "Nothing | UK",
+        "capped": false
+      },
+      "browserSamples": [
+        {
+          "url": "https://nothing.tech/products/headphone-1-pro",
+          "status": 200,
+          "title": "Headphone (1) Pro | Nothing | UK",
+          "limited": false,
+          "error": null
+        }
+      ],
+      "verificationNote": "Product copy was readable, but a country-choice overlay limited visual inspection. No complete animation audit."
+    },
+    {
+      "id": 47,
+      "group": "product-experience",
+      "name": "Teenage Engineering",
+      "url": "https://teenage.engineering/",
+      "studyFocus": "وضع المنتج نفسه بطلًا للصورة",
+      "potentialMadarUse": "تكوين منتج كبير مع واجهة قليلة التشتيت",
+      "httpProbe": {
+        "status": 200,
+        "finalUrl": "https://teenage.engineering/",
+        "title": "teenage engineering",
+        "capped": false
+      },
+      "browserSamples": [
+        {
+          "url": "https://teenage.engineering/",
+          "status": 200,
+          "title": "teenage engineering",
+          "limited": false,
+          "error": null
+        }
+      ],
+      "verificationNote": "HTTP response checked; study focus is not a claim that every feature was tested."
+    },
+    {
+      "id": 48,
+      "group": "product-experience",
+      "name": "Bang & Olufsen",
+      "url": "https://www.bang-olufsen.com/",
+      "studyFocus": "التشطيبات والمواد والإضاءة",
+      "potentialMadarUse": "تغيير زاوية العرض، لا تغيير حقيقة اللون",
+      "httpProbe": {
+        "status": 200,
+        "finalUrl": "https://www.bang-olufsen.com/en/us",
+        "title": "Bang & Olufsen - High-end Headphones, Speakers, and Televisions",
+        "capped": false
+      },
+      "browserSamples": [],
+      "verificationNote": "HTTP response checked; study focus is not a claim that every feature was tested."
+    },
+    {
+      "id": 49,
+      "group": "product-experience",
+      "name": "Cowboy",
+      "url": "https://cowboy.com/",
+      "studyFocus": "خيارات اللون، التكوين، الاختبار الإرشادي والمقارنة",
+      "potentialMadarUse": "رحلة اختيار مختصرة وملخص اختيارات",
+      "httpProbe": {
+        "status": 200,
+        "finalUrl": "https://cowboy.com/",
+        "title": "Cowboy - The Ultimate Connected E-Bikes",
+        "capped": false
+      },
+      "browserSamples": [
+        {
+          "url": "https://cowboy.com/products/e-bike-cowboy-cruiser",
+          "status": 200,
+          "title": "Cowboy Cruiser - The Connected Electric Bike",
+          "limited": false,
+          "error": null
+        }
+      ],
+      "verificationNote": "HTTP response checked; study focus is not a claim that every feature was tested."
+    },
+    {
+      "id": 50,
+      "group": "product-experience",
+      "name": "Porsche",
+      "url": "https://www.porsche.com/",
+      "studyFocus": "مبدأ المُكوِّن: خيارات منظمة وملخص واضح",
+      "potentialMadarUse": "«استوديو تنسيق»؛ ليس مطلوبًا محرك سيارات ثلاثي الأبعاد",
+      "httpProbe": {
+        "status": 403,
+        "finalUrl": "https://www.porsche.com/",
+        "error": "HTTP response; no access-control bypass attempted"
+      },
+      "browserSamples": [],
+      "verificationNote": "Automated HTTP access was limited; study focus is a recommendation, not a tested feature claim."
+    }
+  ]
+}
